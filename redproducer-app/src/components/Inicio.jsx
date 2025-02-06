@@ -1,16 +1,24 @@
+import React, { useState } from "react";
 import "../css/Inicio.css";
 import SeccionPrincipal from "./SeccionPrincipal";
 import Reproductor from "./Reproductor";
+import canciones from "../data/canciones.json"; // Importamos las canciones
 
 function Inicio() {
+  // Estado global para manejar la canción actual
+  const [cancionActual, setCancionActual] = useState(canciones[0]); // Canción por defecto
+
   return (
     <section className="pagina-inicio">
-      <SeccionPrincipal />
+      {/* Se pasa "setCancionActual" a SeccionPrincipal para actualizar la canción al hacer clic */}
+      <SeccionPrincipal seleccionarCancion={setCancionActual} />
+      
+      {/* El reproductor recibe la canción seleccionada y cambia dinámicamente */}
       <Reproductor
-      videoSrc="./../audios/anuel-tu-no-lo-amas.mp4"
-      imagenSrc="./../img/portada-anuelaa.jpg"
-      titulo="Tu no lo amas"
-      artista="Anuel AA"
+        videoSrc={cancionActual.audio}
+        imagenSrc={cancionActual.portada}
+        titulo={cancionActual.titulo}
+        artista={cancionActual.artista}
       />
     </section>
   );
