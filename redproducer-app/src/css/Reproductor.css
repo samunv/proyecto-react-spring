@@ -1,0 +1,57 @@
+.reproductor {
+    width: 250px;
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portada {
+    width: 100px;
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  .icono-musica {
+    font-size: 50px;
+  }
+  
+  .titulo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .artista {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  /* Barra de progreso */
+  input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    accent-color: red;
+  }
+  
+  /* Tiempo de reproducción */
+  .tiempo {
+    font-size: 12px;
+  }
+  
+  /* Botón de reproducción */
+  .boton-reproducir {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+  }
