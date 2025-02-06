@@ -1,0 +1,26 @@
+.header{
+	background-color: black;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav{
+	color: #B3B3B3;
+}
+
+.nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav ul li{
+	list-style: none;
+	margin: 10px;
+	font-size: 20px;
+}
+.icono-app{
+	width: 280px;
+	height: 150px;
+}
