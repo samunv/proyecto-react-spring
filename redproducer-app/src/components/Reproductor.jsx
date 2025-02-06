@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Reproductor.css";
 
 const Reproductor = () => {
+    
   return (
     <div className="reproductor">
       {/* Imagen de portada del álbum */}
