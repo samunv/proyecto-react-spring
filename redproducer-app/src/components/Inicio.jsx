@@ -6,7 +6,12 @@ function Inicio() {
   return (
     <section className="pagina-inicio">
       <SeccionPrincipal />
-      <Reproductor />
+      <Reproductor
+      videoSrc="./../audios/anuel-tu-no-lo-amas.mp4"
+      imagenSrc="./../img/portada-anuelaa.jpg"
+      titulo="Tu no lo amas"
+      artista="Anuel AA"
+      />
     </section>
   );
 }
