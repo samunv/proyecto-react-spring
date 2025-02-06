@@ -1,40 +1,44 @@
 .contenedor-cancion {
 	background-color: #333337;
 	border-radius: 10px;
-	width: 330px;
+	width: 300px;
 	height: 150px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	object-fit: cover;
 }
 
 .portada-cancion {
-	width: 130px;
-	height: 130px;
+	width: 40%; /* El ancho será el 50% del contenedor */
+	aspect-ratio: 1 / 1; /* Mantiene la proporción de 1:1 (cuadrado) */
 	border-radius: 5px;
 }
 
 .texto-boton {
 	margin-left: 0px;
-	font-size: 18px;
+	font-size: 16px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	width: 50%;
 
 }
 
 .texto-cancion {
 	color: #B3B3B3;
 	margin-bottom: 20px;
-	width: 150px;
+	width: 100%;
 }
 
 
 
 .btn-play {
-	width: 50px;
-	height: 50px;
+	width: 30%; /* El ancho será el 50% del contenedor */
+	aspect-ratio: 1 / 1; /* Mantiene la proporción de 1:1 (cuadrado) */
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.3s ease;

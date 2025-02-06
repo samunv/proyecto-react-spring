@@ -34,6 +34,105 @@
 	  "audio": "ozuna-farsante.mp4",
 	  "duracion": "3:51",
 	  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-	}
+	},
+	{
+		"idCancion": "3",
+		"titulo": "Luna Llena",
+		"artista": "Beny Jr",
+		"portada": "portada-beny.jpg",
+		"audio": "beny-lunallena.mp4",
+		"duracion": "2:49",
+		"letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
+	  },
+	  {
+		"idCancion": "4",
+		"titulo": "Farsante",
+		"artista": "Ozuna",
+		"portada": "portada-ozuna.jpg",
+		"audio": "ozuna-farsante.mp4",
+		"duracion": "3:51",
+		"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+	  },
+	  {
+		"idCancion": "4",
+		"titulo": "Farsante",
+		"artista": "Ozuna",
+		"portada": "portada-ozuna.jpg",
+		"audio": "ozuna-farsante.mp4",
+		"duracion": "3:51",
+		"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+	  },
+	  {
+		  "idCancion": "3",
+		  "titulo": "Luna Llena",
+		  "artista": "Beny Jr",
+		  "portada": "portada-beny.jpg",
+		  "audio": "beny-lunallena.mp4",
+		  "duracion": "2:49",
+		  "letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
+		},
+		{
+		  "idCancion": "4",
+		  "titulo": "Farsante",
+		  "artista": "Ozuna",
+		  "portada": "portada-ozuna.jpg",
+		  "audio": "ozuna-farsante.mp4",
+		  "duracion": "3:51",
+		  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+		},
+		{
+			"idCancion": "4",
+			"titulo": "Farsante",
+			"artista": "Ozuna",
+			"portada": "portada-ozuna.jpg",
+			"audio": "ozuna-farsante.mp4",
+			"duracion": "3:51",
+			"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+		  },
+		  {
+			  "idCancion": "3",
+			  "titulo": "Luna Llena",
+			  "artista": "Beny Jr",
+			  "portada": "portada-beny.jpg",
+			  "audio": "beny-lunallena.mp4",
+			  "duracion": "2:49",
+			  "letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
+			},
+			{
+			  "idCancion": "4",
+			  "titulo": "Farsante",
+			  "artista": "Ozuna",
+			  "portada": "portada-ozuna.jpg",
+			  "audio": "ozuna-farsante.mp4",
+			  "duracion": "3:51",
+			  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+			},
+			{
+			  "idCancion": "4",
+			  "titulo": "Farsante",
+			  "artista": "Ozuna",
+			  "portada": "portada-ozuna.jpg",
+			  "audio": "ozuna-farsante.mp4",
+			  "duracion": "3:51",
+			  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+			},
+			{
+				"idCancion": "3",
+				"titulo": "Luna Llena",
+				"artista": "Beny Jr",
+				"portada": "portada-beny.jpg",
+				"audio": "beny-lunallena.mp4",
+				"duracion": "2:49",
+				"letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
+			  },
+			  {
+				"idCancion": "4",
+				"titulo": "Farsante",
+				"artista": "Ozuna",
+				"portada": "portada-ozuna.jpg",
+				"audio": "ozuna-farsante.mp4",
+				"duracion": "3:51",
+				"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
+			  }
   ]
   
