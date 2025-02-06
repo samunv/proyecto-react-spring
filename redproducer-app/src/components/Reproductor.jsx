@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../css/Reproductor.css";
+import ModalLyrics from "./ModalLyrics"; 
+
 
 const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra }) => {
   const audioRef = useRef(null);
