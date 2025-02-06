@@ -1,6 +1,12 @@
 import "../css/Inicio.css"
-function Inicio(){
-   
+import SeccionPrincipal from "./SeccionPrincipal";
+
+function Inicio() {
+    return (
+        <section className="pagina-inicio">
+            <SeccionPrincipal />
+        </section>
+    );
 }
 
 export default Inicio;
