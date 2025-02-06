@@ -24,8 +24,8 @@ html, body {
 
 /* Imagen de portada */
 .portada {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     background: #1c1c1c;
     display: flex;
     align-items: center;
