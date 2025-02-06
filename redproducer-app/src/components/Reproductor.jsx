@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../css/Reproductor.css";
 
-const Reproductor = ({ videoSrc, imagenSrc, titulo, artista }) => {
+const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra }) => {
   const audioRef = useRef(null);
   const [reproduciendo, setReproduciendo] = useState(false);
   const [progreso, setProgreso] = useState(0);
