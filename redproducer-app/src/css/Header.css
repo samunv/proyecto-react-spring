@@ -1,4 +1,4 @@
-.header{
+.header {
 	background-color: black;
 	height: 130px;
 	display: flex;
@@ -6,21 +6,37 @@
 	justify-content: space-around;
 }
 
-.nav{
+.nav {
 	color: #B3B3B3;
 }
 
-.nav ul{
+.nav ul {
 	display: flex;
 	flex-direction: row;
 }
 
-.nav ul li{
+.nav ul li {
 	list-style: none;
 	margin: 10px;
 	font-size: 20px;
 }
-.icono-app{
+
+.nav ul li a {
+	color: #B3B3B3;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.nav ul li a:hover {
+	background-color: red;
+	color: black;
+	
+	
+}
+
+.icono-app {
 	width: 280px;
 	height: 150px;
 }

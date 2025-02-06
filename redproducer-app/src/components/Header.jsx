@@ -7,8 +7,8 @@ function Header(){
 			</a>
 			<nav className="nav">
 				<ul>
-					<li>Inicio</li>
-					<li>Panel</li>
+					<li><a href="/">Inicio</a></li>
+					<li><a href="/panel">Panel</a></li>
 				</ul>
 			</nav>
 		</header>
