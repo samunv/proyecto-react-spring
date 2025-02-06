@@ -76,6 +76,10 @@ const Reproductor = ({ videoSrc, imagenSrc, titulo, artista }) => {
       </button>
 
       <video ref={audioRef} src={videoSrc} style={{ display: "none" }} />
+      <div className="lyrics-container">
+        <h4>Letra de la canción</h4>
+        <p className="lyrics-text">{letra}</p>
+      </div>
     </div>
   );
 };
