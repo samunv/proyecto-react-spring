@@ -1,18 +1,20 @@
 import "../css/Cancion.css";
-import BotonReproducir from "./BotonReproducir";
 
-function Cancion(props) {
+function Cancion({ titulo, portada, artista, seleccionarCancion }) {
   return (
-	<div className="contenedor-cancion">
-	  <img src={`./../img/${props.portada}`} alt="" className="portada-cancion" />
-	  <div className="texto-boton">
-		<div className="texto-cancion">
-		  <strong>{props.titulo}</strong>
-		  <p>{props.artista}</p>
-		</div>
-		<BotonReproducir cancion={props.cancion}/>
-	  </div>
-	</div>
+    <div className="contenedor-cancion">
+      <img src={portada} alt={titulo} className="portada-cancion" />
+      <div className="texto-boton">
+        <div className="texto-cancion">
+          <strong>{titulo}</strong>
+          <p>{artista}</p>
+        </div>
+        {/* Botón que cambia la canción en el reproductor */}
+        <button className="boton-reproducir" onClick={seleccionarCancion}>
+          <img src="./../img/play-icon.png" alt="Reproducir" />
+        </button>
+      </div>
+    </div>
   );
 }
 
