@@ -1,13 +1,88 @@
 [
 	{
-	  "idCancion": "1",
-	  "titulo": "Hoyo",
-	  "artista": "Morad",
-	  "portada": "/img/portada-morad.jpg",
-	  "audio": "/audios/morad-hoyo.mp4",
-	  "duracion": "3:00",
-	  "letra": "Yo me he criado sentado con gente Nunca quise dármela de ir solo Al tiempo vi que to' era diferente Salían problema' y se iban como un vuelo Te quieren cuando te ven en el cielo Así lo aprendí yo de mi abuelo Así aprendí en la calle Que to' el que te ofrece dinero es solo un anzuelo La vida es una lucha y a vece' un duelo Madres que no les llega con el sueldo Lágrimas que se le caen al suelo Mientras trabajan limpiando los suelos Mientras trabajan se ven en miseria Sin dinero tú vive' en periferia El mundo está girando como la noria Lamine Yamal, de la calle a la gloria Por eso todo me da paranoia Por eso a la policía la odian Haciendo el bien y no me apoyan Haciendo el mal y me degollan En la calle no hay fobia Que ninguno soñaba con la novia Sin dinero to' me agobia Pero con dinero se ve to' turbio Criado en la' afuera', en lo' suburbio' Trato con pakis y serbio' Todos mirándose serio, todos mirándose serio Aquí a muchos los quitaron del medio Por querer salir en medio' Pastor no tenían remedio Se engancharon a lo' medio'..."
-	},
+		"idCancion": "1",
+		"titulo": "Hoyo",
+		"artista": "Morad",
+		"portada": "/img/portada-morad.jpg",
+		"audio": "/audios/morad-hoyo.mp4",
+		"duracion": "180",
+		"letra": [
+		  { "tiempo": 2, "texto": "Yo me he criado sentado con gente" },
+		  { "tiempo": 5, "texto": "Nunca quise dármela de ir solo" },
+		  { "tiempo": 8, "texto": "Al tiempo vi que to' era diferente" },
+		  { "tiempo": 11, "texto": "Salían problema' y se iban como un vuelo" },
+		  { "tiempo": 14, "texto": "Te quieren cuando te ven en el cielo" },
+		  
+		  { "tiempo": 18, "texto": "Así lo aprendí yo de mi abuelo" },
+		  { "tiempo": 21, "texto": "Así aprendí en la calle" },
+		  { "tiempo": 23, "texto": "Que to' el que te ofrece dinero es solo un anzuelo" },
+		  { "tiempo": 26, "texto": "La vida es una lucha y a vece' un duelo" },
+		  { "tiempo": 29, "texto": "Madres que no les llega con el sueldo" },
+		  { "tiempo": 32, "texto": "Lágrimas que se le caen al suelo" },
+		  
+		  { "tiempo": 36, "texto": "Mientras trabajan limpiando los suelos" },
+		  { "tiempo": 38, "texto": "Mientras trabajan se ven en miseria" },
+		  { "tiempo": 40, "texto": "Sin dinero tú vive' en periferia" },
+		  { "tiempo": 43, "texto": "El mundo está girando como la noria" },
+		  { "tiempo": 46, "texto": "Lamine Yamal, de la calle a la gloria" },
+		  
+		  { "tiempo": 50, "texto": "Por eso todo me da paranoia" },
+		  { "tiempo": 52, "texto": "Por eso a la policía la odian" },
+		  { "tiempo": 54, "texto": "Haciendo el bien y no me apoyan" },
+		  { "tiempo": 56, "texto": "Haciendo el mal y me degollan" },
+		  
+		  { "tiempo": 60, "texto": "En la calle no hay fobia" },
+		  { "tiempo": 62, "texto": "Que ninguno soñaba con la novia" },
+		  { "tiempo": 65, "texto": "Sin dinero to' me agobia" },
+		  { "tiempo": 67, "texto": "Pero con dinero se ve to' turbio" },
+		  
+		  { "tiempo": 70, "texto": "Criado en la' afuera', en lo' suburbio'" },
+		  { "tiempo": 73, "texto": "Trato con pakis y serbio'" },
+		  { "tiempo": 75, "texto": "Todos mirándose serio, todos mirándose serio" },
+		  { "tiempo": 78, "texto": "Aquí a muchos los quitaron del medio" },
+		  { "tiempo": 81, "texto": "Por querer salir en medio'" },
+		  
+		  { "tiempo": 85, "texto": "Pastor no tenían remedio" },
+		  { "tiempo": 87, "texto": "Se engancharon a lo' medio'" },
+		  
+		  { "tiempo": 90, "texto": "Pollo" },
+		  { "tiempo": 92, "texto": "Estaba en la calle haciéndolo solo y por eso no recibe apoyo" },
+		  { "tiempo": 96, "texto": "Soy el que representa a lo' duro' que estaban metí'o en el hoyo" },
+		  { "tiempo": 100, "texto": "Nunca subestime' a nadie porque el mundo gira como un yoyo" },
+		  { "tiempo": 104, "texto": "Sube pa'bajo, pa'bajo, pa'rriba y nunca me fijo en yoyo" },
+	  
+		  { "tiempo": 108, "texto": "Pocos saben por lo que yo pasé" },
+		  { "tiempo": 110, "texto": "Tú habla' pero sin tener conocer" },
+		  { "tiempo": 112, "texto": "Yo sí que sé y digo: 'No sé'" },
+		  { "tiempo": 114, "texto": "Si me preguntan me pongo a toser" },
+	  
+		  { "tiempo": 118, "texto": "Trato con uno llamada 'José'" },
+		  { "tiempo": 120, "texto": "Con eso tose' omo empecé" },
+		  { "tiempo": 122, "texto": "Se tapa la cara y no se les ve" },
+		  { "tiempo": 124, "texto": "Me pasa un problema y salen como tre'" },
+	  
+		  { "tiempo": 128, "texto": "Antes soñaba con RS3" },
+		  { "tiempo": 130, "texto": "Ahora si quiero tengo unos sei'" },
+		  { "tiempo": 132, "texto": "Voy con la Twingo y así no me vei'" },
+		  { "tiempo": 134, "texto": "Estoy apuntito de hacer 26" },
+	  
+		  { "tiempo": 138, "texto": "Recuerdo cuando tenía 23" },
+		  { "tiempo": 140, "texto": "Haciéndome millo y no lo aparentaba" },
+		  { "tiempo": 142, "texto": "2024 tuve la entrada" },
+		  { "tiempo": 144, "texto": "Lo hice en silencio, nunca lo chillaba" },
+	  
+		  { "tiempo": 148, "texto": "Como tú, por un mes cambiaste tu actitud" },
+		  { "tiempo": 150, "texto": "Estar preso no es tener una virtud" },
+		  { "tiempo": 152, "texto": "Están preso pa' visitar el YouTube" },
+		  { "tiempo": 154, "texto": "No soy nunca en la vida como tú" },
+	  
+		  { "tiempo": 158, "texto": "Como tú, por un mes cambian todo' la actitud" },
+		  { "tiempo": 160, "texto": "Estar preso no es una virtud" },
+		  { "tiempo": 162, "texto": "Están preso pa' visitar el YouTube" },
+		  { "tiempo": 164, "texto": "No soy como tú, quieren ser como yo" }
+		]
+	  },
+	  
 	{
 	  "idCancion": "2",
 	  "titulo": "Tú No lo Amas",

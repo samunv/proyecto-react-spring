@@ -2,34 +2,47 @@ import React, { useRef, useState, useEffect } from "react";
 import "../css/Reproductor.css";
 import ModalLyrics from "./ModalLyrics"; 
 
-
 const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra }) => {
   const audioRef = useRef(null);
   const [reproduciendo, setReproduciendo] = useState(false);
   const [progreso, setProgreso] = useState(0);
-  const [tiempoActual, setTiempoActual] = useState("0:00");
+  const [tiempoActual, setTiempoActual] = useState(0);
+  const [modalAbierto, setModalAbierto] = useState(false);
+  const [lineaActual, setLineaActual] = useState(0); // Índice de la línea actual
 
+  // 📌 Cargar y empezar la canción automáticamente al cambiar
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.load();
       audioRef.current.play();
       setReproduciendo(true);
     }
-  }, [videoSrc]); // Cambia la canción automáticamente
+  }, [videoSrc]);
 
+  // 📌 Escuchar el tiempo del audio y actualizar progreso
   useEffect(() => {
     const audio = audioRef.current;
+
     const actualizarProgreso = () => {
-      const porcentaje = (audio.currentTime / audio.duration) * 100;
-      setProgreso(porcentaje);
-      setTiempoActual(formatearTiempo(audio.currentTime));
+      const tiempo = audio.currentTime;
+      setTiempoActual(tiempo);
+      setProgreso((tiempo / audio.duration) * 100);
+
+      // 📌 Buscar qué línea de la letra debe mostrarse
+      const nuevaLinea = letra.findIndex((linea, i) => {
+        return i === letra.length - 1 || (tiempo >= linea.tiempo && tiempo < letra[i + 1].tiempo);
+      });
+
+      if (nuevaLinea !== -1) {
+        setLineaActual(nuevaLinea);
+      }
     };
 
     audio.addEventListener("timeupdate", actualizarProgreso);
     return () => {
       audio.removeEventListener("timeupdate", actualizarProgreso);
     };
-  }, []);
+  }, [letra]);
 
   const formatearTiempo = (tiempo) => {
     const minutos = Math.floor(tiempo / 60);
@@ -71,17 +84,24 @@ const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra }) => {
         />
       </div>
 
-      <p className="tiempo">{tiempoActual}</p>
+      <p className="tiempo">{formatearTiempo(tiempoActual)}</p>
 
       <button className="boton-reproducir" onClick={alternarReproduccion}>
         <img src={reproduciendo ? "./../img/pause-icon.png" : "./../img/play-icon.png"} alt="Reproducir/Pausar" />
       </button>
 
       <video ref={audioRef} src={videoSrc} style={{ display: "none" }} />
-      <div className="lyrics-container">
-        <h4>Letra de la canción</h4>
-        <p className="lyrics-text">{letra}</p>
+      <button className="boton-lyrics" onClick={() => setModalAbierto(true)}>🎵</button>
+
+      {/* 📌 Sección de lyrics sincronizadas */}
+      <div className="lyrics-sync">
+        <p className="lyrics-prev">{letra[lineaActual - 1]?.texto || ""}</p>
+        <p className="lyrics-current">{letra[lineaActual]?.texto || ""}</p>
+        <p className="lyrics-next">{letra[lineaActual + 1]?.texto || ""}</p>
       </div>
+
+      {/* 📌 Mostrar el modal cuando modalAbierto sea true */}
+      {modalAbierto && <ModalLyrics letra={letra} onClose={() => setModalAbierto(false)} />}
     </div>
   );
 };
