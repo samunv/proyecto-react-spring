@@ -19,8 +19,7 @@ function Inicio() {
         imagenSrc={cancionActual.portada}
         titulo={cancionActual.titulo}
         artista={cancionActual.artista}
-        letra={cancionActual.letra}
-      />
+        letra={cancionActual.letra || []}      />
     </section>
   );
 }

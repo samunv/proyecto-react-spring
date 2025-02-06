@@ -1,17 +1,16 @@
 import React from "react";
 import "../css/ModalLyrics.css";
 
-const ModalLyrics = ({ letra, lineaActual, onClose }) => {
+const ModalLyrics = ({ letra, onClose }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="cerrar-modal" onClick={onClose}>✖</button>
-
-        {/* Letras con efecto Spotify */}
+        <h2 className="titulo-modal">Lyrics</h2>
         <div className="lyrics-container">
-          <p className="lyrics-prev">{letra[lineaActual - 1]?.texto || ""}</p>
-          <p className="lyrics-current">{letra[lineaActual]?.texto || ""}</p>
-          <p className="lyrics-next">{letra[lineaActual + 1]?.texto || ""}</p>
+          {letra.map((linea, i) => (
+            <p key={i} className="lyrics-line">{linea.texto}</p>
+          ))}
         </div>
       </div>
     </div>
