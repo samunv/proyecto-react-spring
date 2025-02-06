@@ -7,6 +7,5 @@ import Reproductor from './components/Reproductor.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Reproductor />
   </StrictMode>,
 )

@@ -4,9 +4,9 @@ import BotonReproducir from "./BotonReproducir";
 function Cancion(props) {
   return (
 	<div className="contenedor-cancion">
-	  <img src={`./../img/${props.portada}`} alt="" className="portada" />
+	  <img src={`./../img/${props.portada}`} alt="" className="portada-cancion" />
 	  <div className="texto-boton">
-		<div className="texto">
+		<div className="texto-cancion">
 		  <strong>{props.titulo}</strong>
 		  <p>{props.artista}</p>
 		</div>
