@@ -1,3 +1,4 @@
+/* Contenedor del reproductor */
 .reproductor {
     width: 250px;
     background-color: #2d2d2d;
@@ -6,52 +7,84 @@
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
-  }
-  
-  .portada {
-    width: 100px;
-    height: 100px;
-    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Imagen de portada */
+.portada {
+    width: 120px;
+    height: 120px;
+    background: #1c1c1c;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    margin: auto;
-  }
-  
-  .icono-musica {
-    font-size: 50px;
-  }
-  
-  .titulo {
+    margin-bottom: 10px;
+}
+
+/* Icono de música dentro de la portada */
+.icono-musica img {
+    width: 60%;
+    height: auto;
+}
+
+/* Información de la canción */
+.titulo {
     font-weight: bold;
     font-size: 18px;
-    margin-top: 10px;
-  }
-  
-  .artista {
+    margin: 0;
+}
+
+.artista {
     font-size: 14px;
     color: gray;
-    margin-bottom: 10px;
-  }
-  
-  /* Barra de progreso */
-  input[type="range"] {
+    margin-bottom: 5px;
+}
+
+/* Barra de progreso */
+input[type="range"] {
     width: 100%;
-    margin: 10px 0;
-    accent-color: red;
-  }
-  
-  /* Tiempo de reproducción */
-  .tiempo {
+    margin: 5px 0;
+    appearance: none;
+    background: #444;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Tiempo de reproducción */
+.tiempo {
     font-size: 12px;
-  }
-  
-  /* Botón de reproducción */
-  .boton-reproducir {
+    color: white;
+}
+
+/* Botón de reproducción */
+.boton-reproducir {
     background: none;
     border: none;
-    font-size: 24px;
     cursor: pointer;
-    color: red;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.boton-reproducir img {
+    width: 60%;
+    height: auto;
+}
