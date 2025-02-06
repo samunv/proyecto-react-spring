@@ -6,7 +6,7 @@ const Reproductor = () => {
     <div className="reproductor">
       {/* Imagen de portada del álbum */}
       <div className="portada">
-        <div className="icono-musica">🎵</div>
+        <div className="icono-musica"><img src="./../img/Vector.png" alt="" /></div>
       </div>
 
       {/* Información de la canción */}
