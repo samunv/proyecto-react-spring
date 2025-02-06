@@ -20,7 +20,7 @@ const Reproductor = () => {
       <p className="tiempo">1:10</p>
 
       {/* Botón de reproducción (aún sin funcionalidad) */}
-      <button className="boton-reproducir">▶️</button>
+      <button className="boton-reproducir"><img src="./../img/play-icon.png" alt="" /></button>
     </div>
   );
 };
