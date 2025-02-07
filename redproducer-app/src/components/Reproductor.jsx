@@ -2,6 +2,27 @@ import React, { useRef, useState, useEffect } from "react";
 import "../css/Reproductor.css";
 import ModalLyrics from "./ModalLyrics";
 
+// Componente ModalVolumen para ajustar el volumen en una ventana
+const ModalVolumen  = ({ volume, setVolume, onClose }) => {
+  return (
+    <div className="modal-volumen-overlay">
+      <div className="modal-volumen-content">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value={volume * 100}
+          onChange={(e) => setVolume(e.target.value / 100)}
+          className="barra-volumen"
+        />
+        <button className="modal-volumen-cerrar" onClick={onClose}>
+        ✖
+        </button>
+      </div>
+    </div>
+  );
+};
+
 const Reproductor = ({
   videoSrc,
   imagenSrc,
@@ -15,6 +36,7 @@ const Reproductor = ({
   const [progreso, setProgreso] = useState(0);
   const [tiempoActual, setTiempoActual] = useState(0);
   const [modalAbierto, setModalAbierto] = useState(false);
+  const [modalVolumenAbierto, setModalVolumenAbierto] = useState(false);
   const [lineaActual, setLineaActual] = useState(0);
   const [inicioLetra, setInicioLetra] = useState(false);
   const [volume, setVolume] = useState(1); // 1 equivale al 100% de volumen
@@ -109,27 +131,11 @@ const Reproductor = ({
       {/* Tiempo actual */}
       <p className="tiempo">{formatearTiempo(tiempoActual)}</p>
 
-      {/* Barra de sonido para ajustar el volumen */}
-      <div className="contenedor-volumen">
-        <label htmlFor="volumen">Volumen:</label>
-        <input
-          id="volumen"
-          type="range"
-          min="0"
-          max="100"
-          value={volume * 100}
-          onChange={(e) => {
-            const nuevoVolumen = e.target.value / 100;
-            setVolume(nuevoVolumen);
-          }}
-          className="barra-volumen"
-        />
-      </div>
-
       <div className="iconos-controlador">
+        {/* Botón de volumen: abre el modal de volumen */}
         <button
           className="boton-volumen"
-          onClick={() => setModalAbierto(true)}
+          onClick={() => setModalVolumenAbierto(true)}
         >
           <img
             src="./../img/volumen.png"
@@ -137,6 +143,7 @@ const Reproductor = ({
             className="icono-letra"
           />
         </button>
+
         {/* Botón de reproducción */}
         <button
           className="boton-reproducir"
@@ -176,6 +183,15 @@ const Reproductor = ({
           titulo={titulo}
           artista={artista}
           onClose={() => setModalAbierto(false)}
+        />
+      )}
+
+      {/* Modal para ajustar el volumen */}
+      {modalVolumenAbierto && (
+        <ModalVolumen className="modal-volumen"
+          volume={volume}
+          setVolume={setVolume}
+          onClose={() => setModalVolumenAbierto(false)}
         />
       )}
     </div>
