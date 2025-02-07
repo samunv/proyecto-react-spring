@@ -1,5 +1,5 @@
 .contenedor-cancion {
-	background-color: #333337;
+	background-color: #1e1e1e;
 	border-radius: 10px;
 	width: 300px;
 	height: 150px;
@@ -37,8 +37,8 @@
 
 
 .btn-play {
-	width: 30%; /* El ancho será el 50% del contenedor */
-	aspect-ratio: 1 / 1; /* Mantiene la proporción de 1:1 (cuadrado) */
+	width: 30%; 
+	aspect-ratio: 1 / 1; 
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.3s ease;

@@ -9,7 +9,6 @@
 	min-height: calc(100vh - 70px);
 	width: 80%;
 	
-	
 }
 
 .linea{
@@ -20,7 +19,7 @@
 }
 
 .titulo-pagina-inicio{
-	color: gray;
+	color: #B3B3B3;
 	font-size: 40px;
 	text-align: left;
 	width: 90%;
@@ -76,4 +75,7 @@
 	width: 35px;
 	height: 35px;
 	transition: filter 0.3s ease;
+}
+.no-results-p{
+	color: #B3B3B3;
 }
