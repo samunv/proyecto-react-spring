@@ -142,7 +142,7 @@ const Reproductor = ({
 
 			{/* Modal con letras */}
 			{modalAbierto && (
-				<ModalLyrics letra={letra} onClose={() => setModalAbierto(false)} />
+				<ModalLyrics letra={letra} titulo = {titulo} artista={artista} onClose={() => setModalAbierto(false)} />
 			)}
 		</div>
 	);
