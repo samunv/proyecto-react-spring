@@ -13,7 +13,7 @@ function SeccionPrincipal({seleccionarCancion}) {
 
   return (
 	<div className="contenedor-principal">
-	  <h1 className="titulo-pagina-inicio">Buscar Canciones</h1>
+	  <h1 className="titulo-pagina-inicio">Inicio</h1>
 	  <div className="caja-buscador">
 		<input
 		  type="text"
