@@ -1,138 +1,535 @@
 [
-	{
-	  "idCancion": "1",
-	  "titulo": "Hoyo",
-	  "artista": "Morad",
-	  "portada": "portada-morad.jpg",
-	  "audio": "morad-hoyo.mp4",
-	  "duracion": "3:00",
-	  "letra": "Yo me he criado sentado con gente Nunca quise dármela de ir solo Al tiempo vi que to' era diferente Salían problema' y se iban como un vuelo Te quieren cuando te ven en el cielo Así lo aprendí yo de mi abuelo Así aprendí en la calle Que to' el que te ofrece dinero es solo un anzuelo La vida es una lucha y a vece' un duelo Madres que no les llega con el sueldo Lágrimas que se le caen al suelo Mientras trabajan limpiando los suelos Mientras trabajan se ven en miseria Sin dinero tú vive' en periferia El mundo está girando como la noria Lamine Yamal, de la calle a la gloria Por eso todo me da paranoia Por eso a la policía la odian Haciendo el bien y no me apoyan Haciendo el mal y me degollan En la calle no hay fobia Que ninguno soñaba con la novia Sin dinero to' me agobia Pero con dinero se ve to' turbio Criado en la' afuera', en lo' suburbio' Trato con pakis y serbio' Todos mirándose serio, todos mirándose serio Aquí a muchos los quitaron del medio Por querer salir en medio' Pastor no tenían remedio Se engancharon a lo' medio'..."
-	},
-	{
-	  "idCancion": "2",
-	  "titulo": "Tú No lo Amas",
-	  "artista": "Anuel AA",
-	  "portada": "portada-anuelaa.jpg",
-	  "audio": "anuel-tu-no-lo-amas.mp4",
-	  "duracion": "3:34",
-	  "letra": "Chris Jeday (Uah) Anuel Dile que tú te enredaste en su piel y que es fácil ser fiel Pero dile que tú no lo amas y que tú me reclamas ('Clamas) Y dile que tú no te vas a envolver, porque él te trate bien Porque tú todavía me llama y tú piensas en mi cama (Cama) Y dile que a veces en la vida nos toca perder Pero en esta pelea, él a mí no me gana, el a mí no me gana Y dile que la vida es una y que tú eres mi luna Y que yo soy tu noche Y que la noche es larga, y que la noche es larga..."
-	},
-	{
-	  "idCancion": "3",
-	  "titulo": "Luna Llena",
-	  "artista": "Beny Jr",
-	  "portada": "portada-beny.jpg",
-	  "audio": "beny-lunallena.mp4",
-	  "duracion": "2:49",
-	  "letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
-	},
-	{
-	  "idCancion": "4",
-	  "titulo": "Farsante",
-	  "artista": "Ozuna",
-	  "portada": "portada-ozuna.jpg",
-	  "audio": "ozuna-farsante.mp4",
-	  "duracion": "3:51",
-	  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-	},
-	{
-		"idCancion": "3",
-		"titulo": "Luna Llena",
-		"artista": "Beny Jr",
-		"portada": "portada-beny.jpg",
-		"audio": "beny-lunallena.mp4",
-		"duracion": "2:49",
-		"letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
-	  },
-	  {
-		"idCancion": "4",
-		"titulo": "Farsante",
-		"artista": "Ozuna",
-		"portada": "portada-ozuna.jpg",
-		"audio": "ozuna-farsante.mp4",
-		"duracion": "3:51",
-		"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-	  },
-	  {
-		"idCancion": "4",
-		"titulo": "Farsante",
-		"artista": "Ozuna",
-		"portada": "portada-ozuna.jpg",
-		"audio": "ozuna-farsante.mp4",
-		"duracion": "3:51",
-		"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-	  },
-	  {
-		  "idCancion": "3",
-		  "titulo": "Luna Llena",
-		  "artista": "Beny Jr",
-		  "portada": "portada-beny.jpg",
-		  "audio": "beny-lunallena.mp4",
-		  "duracion": "2:49",
-		  "letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
-		},
-		{
-		  "idCancion": "4",
-		  "titulo": "Farsante",
-		  "artista": "Ozuna",
-		  "portada": "portada-ozuna.jpg",
-		  "audio": "ozuna-farsante.mp4",
-		  "duracion": "3:51",
-		  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-		},
-		{
-			"idCancion": "4",
-			"titulo": "Farsante",
-			"artista": "Ozuna",
-			"portada": "portada-ozuna.jpg",
-			"audio": "ozuna-farsante.mp4",
-			"duracion": "3:51",
-			"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-		  },
-		  {
-			  "idCancion": "3",
-			  "titulo": "Luna Llena",
-			  "artista": "Beny Jr",
-			  "portada": "portada-beny.jpg",
-			  "audio": "beny-lunallena.mp4",
-			  "duracion": "2:49",
-			  "letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
-			},
-			{
-			  "idCancion": "4",
-			  "titulo": "Farsante",
-			  "artista": "Ozuna",
-			  "portada": "portada-ozuna.jpg",
-			  "audio": "ozuna-farsante.mp4",
-			  "duracion": "3:51",
-			  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-			},
-			{
-			  "idCancion": "4",
-			  "titulo": "Farsante",
-			  "artista": "Ozuna",
-			  "portada": "portada-ozuna.jpg",
-			  "audio": "ozuna-farsante.mp4",
-			  "duracion": "3:51",
-			  "letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-			},
-			{
-				"idCancion": "3",
-				"titulo": "Luna Llena",
-				"artista": "Beny Jr",
-				"portada": "portada-beny.jpg",
-				"audio": "beny-lunallena.mp4",
-				"duracion": "2:49",
-				"letra": "Free Lfar, free el Cata, free Sufian Lf, LF Llevarte de paseo conmigo, pero tú me dices que solo los feos Oye Yo quiero llevarte conmigo 'e paseo Pero ella me dice que solo los feos Si sabes de sobra que no baboseo Pero es que en tu cara te noto el deseo No tiene ninguna foto en historias Porque tampoco tiene redes sociale' Dice que no somo' iguale' Me tacha que debo de aprender sociale' Pero esa sabe, soy bandido Dice que mi valía no le asusta Le gusta porque tengo recorrido Y mis enemigos todos se frustran Nunca me ven, no ves al submarino Bajo del agua las balas no escuchan Tengo peleas internas, mil luchas No me preguntas qué hay en mi hucha..."
-			  },
-			  {
-				"idCancion": "4",
-				"titulo": "Farsante",
-				"artista": "Ozuna",
-				"portada": "portada-ozuna.jpg",
-				"audio": "ozuna-farsante.mp4",
-				"duracion": "3:51",
-				"letra": "Extraño tu aroma en la cama De ese que dejas cuando entras y sales Dónde quedaron los besos y todos los planes No sé si vivir o morir Me encuentro en un limbo desde que te fuiste de aquí Eres la única persona que yo quiero que se venga encima de mí Mi libertad no la quiero Tampoco la vida e' soltero Yo lo que quiero es que quieras lo mismo que todos queremos Tener una cuenta de banco con dígitos y muchos ceros Hacer el amor a diario y de paso gastar el dinero Hey bebé Si todavía me amas como antes Ya nada me parece interesante Yo sé que en el amor soy un farsante Yo sin ti no vuelvo a enamorarme bebé..."
-			  }
-  ]
-  
+  {
+    "idCancion": "1",
+    "titulo": "Hoyo",
+    "artista": "Morad",
+    "portada": "/img/portada-morad.jpg",
+    "audio": "/audios/morad-hoyo.mp4",
+    "duracion": "180",
+    "delay": 1,
+    "letra": [
+      { "tiempo": 13, "texto": "Yo me he criado sentado con gente" },
+      { "tiempo": 17, "texto": "Nunca quise dármela de ir solo" },
+      { "tiempo": 20, "texto": "Al tiempo vi que to' era diferente" },
+      { "tiempo": 23, "texto": "Salían problema' y se iban como un vuelo" },
+      { "tiempo": 26, "texto": "Te quieren cuando te ven en el cielo" },
+
+      { "tiempo": 30, "texto": "Así lo aprendí yo de mi abuelo" },
+      { "tiempo": 33, "texto": "Así aprendí en la calle" },
+      {
+        "tiempo": 35,
+        "texto": "Que to' el que te ofrece dinero es solo un anzuelo"
+      },
+      { "tiempo": 38, "texto": "La vida es una lucha y a vece' un duelo" },
+      { "tiempo": 41, "texto": "Madres que no les llega con el sueldo" },
+      { "tiempo": 44, "texto": "Lágrimas que se le caen al suelo" },
+
+      { "tiempo": 48, "texto": "Mientras trabajan limpiando los suelos" },
+      { "tiempo": 50, "texto": "Mientras trabajan se ven en miseria" },
+      { "tiempo": 52, "texto": "Sin dinero tú vive' en periferia" },
+      { "tiempo": 55, "texto": "El mundo está girando como la noria" },
+      { "tiempo": 58, "texto": "Lamine Yamal, de la calle a la gloria" },
+
+      { "tiempo": 62, "texto": "Por eso todo me da paranoia" },
+      { "tiempo": 64, "texto": "Por eso a la policía la odian" },
+      { "tiempo": 66, "texto": "Haciendo el bien y no me apoyan" },
+      { "tiempo": 68, "texto": "Haciendo el mal y me degollan" },
+
+      { "tiempo": 72, "texto": "En la calle no hay fobia" },
+      { "tiempo": 74, "texto": "Que ninguno soñaba con la novia" },
+      { "tiempo": 77, "texto": "Sin dinero to' me agobia" },
+      { "tiempo": 79, "texto": "Pero con dinero se ve to' turbio" },
+
+      { "tiempo": 82, "texto": "Criado en la' afuera', en lo' suburbio'" },
+      { "tiempo": 85, "texto": "Trato con pakis y serbio'" },
+      { "tiempo": 87, "texto": "Todos mirándose serio, todos mirándose serio" },
+      { "tiempo": 90, "texto": "Aquí a muchos los quitaron del medio" },
+      { "tiempo": 93, "texto": "Por querer salir en medio'" },
+
+      { "tiempo": 97, "texto": "Pastor no tenían remedio" },
+      { "tiempo": 99, "texto": "Se engancharon a lo' medio'" },
+
+      { "tiempo": 102, "texto": "Pollo" },
+      {
+        "tiempo": 104,
+        "texto": "Estaba en la calle haciéndolo solo y por eso no recibe apoyo"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Soy el que representa a lo' duro' que estaban metí'o en el hoyo"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Nunca subestime' a nadie porque el mundo gira como un yoyo"
+      },
+      {
+        "tiempo": 116,
+        "texto": "Sube pa'bajo, pa'bajo, pa'rriba y nunca me fijo en yoyo"
+      },
+
+      { "tiempo": 120, "texto": "Pocos saben por lo que yo pasé" },
+      { "tiempo": 122, "texto": "Tú habla' pero sin tener conocer" },
+      { "tiempo": 124, "texto": "Yo sí que sé y digo: 'No sé'" },
+      { "tiempo": 126, "texto": "Si me preguntan me pongo a toser" },
+
+      { "tiempo": 130, "texto": "Trato con uno llamada 'José'" },
+      { "tiempo": 132, "texto": "Con eso tose' omo empecé" },
+      { "tiempo": 134, "texto": "Se tapa la cara y no se les ve" },
+      { "tiempo": 136, "texto": "Me pasa un problema y salen como tre'" },
+
+      { "tiempo": 140, "texto": "Antes soñaba con RS3" },
+      { "tiempo": 142, "texto": "Ahora si quiero tengo unos sei'" },
+      { "tiempo": 144, "texto": "Voy con la Twingo y así no me vei'" },
+      { "tiempo": 146, "texto": "Estoy apuntito de hacer 26" },
+
+      { "tiempo": 150, "texto": "Recuerdo cuando tenía 23" },
+      { "tiempo": 152, "texto": "Haciéndome millo y no lo aparentaba" },
+      { "tiempo": 154, "texto": "2024 tuve la entrada" },
+      { "tiempo": 156, "texto": "Lo hice en silencio, nunca lo chillaba" },
+
+      { "tiempo": 160, "texto": "Como tú, por un mes cambiaste tu actitud" },
+      { "tiempo": 162, "texto": "Estar preso no es tener una virtud" },
+      { "tiempo": 164, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 166, "texto": "No soy nunca en la vida como tú" },
+
+      {
+        "tiempo": 170,
+        "texto": "Como tú, por un mes cambian todo' la actitud"
+      },
+      { "tiempo": 172, "texto": "Estar preso no es una virtud" },
+      { "tiempo": 174, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 176, "texto": "No soy como tú, quieren ser como yo" }
+    ]
+  },
+
+  {
+    "idCancion": "2",
+    "titulo": "Tú No lo Amas",
+    "artista": "Anuel AA",
+    "portada": "/img/portada-anuelaa.jpg",
+    "audio": "/audios/anuel-tu-no-lo-amas.mp4",
+    "duracion": "214",
+    "delay": 8,
+    "letra": [
+      {
+        "tiempo": 6,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 10,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 14,
+        "texto": "Y dile que tú no te vas a envolver porque él te trate bien"
+      },
+      {
+        "tiempo": 18,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      {
+        "tiempo": 22,
+        "texto": "Y dile que, a veces, en la vida nos toca perder"
+      },
+      {
+        "tiempo": 26,
+        "texto": "Pero, en esta pelea, él a mí no me gana, él a mí no me gana"
+      },
+      {
+        "tiempo": 30,
+        "texto": "Y dile que la vida es una y que tú eres mi Luna"
+      },
+      {
+        "tiempo": 34,
+        "texto": "Y que yo soy tus noches, y que la noche es larga, y que la noche es larga"
+      },
+
+      { "tiempo": 38, "texto": "Yo tan caliente y tu alma tan fría" },
+      { "tiempo": 42, "texto": "Mi cama se siente vacía" },
+      { "tiempo": 45, "texto": "Yo no sé qué tú hiciste, pero tú te fuiste" },
+      { "tiempo": 48, "texto": "Y te tengo en mi mente to' el día" },
+
+      {
+        "tiempo": 52,
+        "texto": "Baby, dime hasta cuándo voy a seguir esperando"
+      },
+      {
+        "tiempo": 56,
+        "texto": "Trastorna'o y hasta veo tu cara en el humo cuando estoy fumando"
+      },
+      {
+        "tiempo": 60,
+        "texto": "Y te trato de besar, pero se desvanece el humo, y tú te vas, eh"
+      },
+      {
+        "tiempo": 64,
+        "texto": "Me voy en el Aventador, pero choco con la realidad, eh"
+      },
+
+      { "tiempo": 68, "texto": "Y todas estas putas me llaman" },
+      { "tiempo": 72, "texto": "Pero yo te amo a ti na' más, eh" },
+      { "tiempo": 76, "texto": "Y si nadie se ha muerto de amor" },
+      { "tiempo": 80, "texto": "¿Por qué tú no viras pa' atrás? Eh" },
+
+      {
+        "tiempo": 84,
+        "texto": "Yo no quería perderte, y el amor se enredó con la muerte"
+      },
+      {
+        "tiempo": 88,
+        "texto": "Mi conciencia me habla y me dice que toca olvidarte"
+      },
+      {
+        "tiempo": 92,
+        "texto": "Pero donde hubo fuego, las cenizas son pa' recordarte, eh"
+      },
+      {
+        "tiempo": 96,
+        "texto": "Que, tarde o temprano, yo puedo volver a chingarte, baby"
+      },
+
+      {
+        "tiempo": 100,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 104,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Y dile que tú no te vas a envolver, porque él te trate bien"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      {
+        "tiempo": 116,
+        "texto": "Y dile que a veces en la vida nos toca perder"
+      },
+      {
+        "tiempo": 120,
+        "texto": "Pero, en esta pelea, él a mí no me gana, él a mí no me gana"
+      },
+      {
+        "tiempo": 124,
+        "texto": "Y dile que la vida es una y que tú eres mi Luna"
+      },
+      {
+        "tiempo": 128,
+        "texto": "Y que yo soy tus noches, y que la noche es larga, y que la noche es larga"
+      },
+
+      { "tiempo": 132, "texto": "Bebé, no me dejes en el limbo" },
+      { "tiempo": 136, "texto": "Recuerda como yo te chingo" },
+      { "tiempo": 140, "texto": "Dicen que primero que martes fue lunes" },
+      { "tiempo": 144, "texto": "Pero primero fue domingo" },
+
+      {
+        "tiempo": 148,
+        "texto": "Dile que yo tengo un Draco pinta'o de Versace pa' él"
+      },
+      { "tiempo": 152, "texto": "Y que yo me tranqué en el pasado" },
+      { "tiempo": 156, "texto": "Y que algún día tú vas a volver" },
+
+      { "tiempo": 160, "texto": "Te necesito, por ti yo me quemo en el fuego" },
+      { "tiempo": 164, "texto": "Diablita, yo soy tu diablito" },
+      { "tiempo": 168, "texto": "Extrañándote, extraño tus gritos" },
+
+      { "tiempo": 172, "texto": "Dile que ya tú eres mía otra ve'" },
+      {
+        "tiempo": 176,
+        "texto": "Y que yo me enamoré de tu clito y de tu totito"
+      },
+
+      {
+        "tiempo": 180,
+        "texto": "Dile que se vaya y explícale que tú me la pones encima"
+      },
+      {
+        "tiempo": 184,
+        "texto": "Y que tú me lo guaya', que ya cruzamo' esa raya"
+      },
+
+      {
+        "tiempo": 188,
+        "texto": "Que soy el amor de tu vida, dile que el corazón de él con el mío"
+      },
+      {
+        "tiempo": 192,
+        "texto": "En su vida, más nunca lo mida, que más nunca lo mida"
+      },
+
+      {
+        "tiempo": 196,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 200,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 204,
+        "texto": "Y dile que tú no te vas a envolver, porque él te trate bien"
+      },
+      {
+        "tiempo": 208,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      { "tiempo": 212, "texto": "Uah" },
+      { "tiempo": 214, "texto": "Anuel" },
+      { "tiempo": 216, "texto": "Real hasta la muerte, ¿oíste, bebé?" },
+      { "tiempo": 218, "texto": "Los intocables, los Iluminatis" },
+      { "tiempo": 220, "texto": "Chris Jedi, Gaby Music" }
+    ]
+  },
+
+  {
+    "idCancion": "3",
+    "titulo": "Luna Llena",
+    "artista": "Beny Jr",
+    "portada": "/img/portada-beny.jpg",
+    "audio": "/audios/beny-lunallena.mp4",
+    "duracion": "169",
+    "delay": 15,
+    "letra": [
+      {
+        "tiempo": 10,
+        "texto": "Yo quiero llevarte conmigo de paseo, pero ella me dice que solo los feos"
+      },
+      {
+        "tiempo": 14,
+        "texto": "Si sabes de sobra que no baboseo, pero es que en tu cara te noto el deseo (no)"
+      },
+      {
+        "tiempo": 18,
+        "texto": "No tiene ninguna foto en historias porque tampoco tiene redes sociale'"
+      },
+      {
+        "tiempo": 22,
+        "texto": "Dice que no somo' iguale', me tacha que debo de aprender sociale'"
+      },
+
+      {
+        "tiempo": 26,
+        "texto": "Pero esa sabe, soy bandido, dice que mi valía no le asusta"
+      },
+      {
+        "tiempo": 30,
+        "texto": "Le gusta porque tengo recorrido, y mis enemigos todos se frustran"
+      },
+      {
+        "tiempo": 34,
+        "texto": "Nunca me ven, no ves al submarino, bajo del agua las balas no escuchan"
+      },
+      {
+        "tiempo": 38,
+        "texto": "Tengo peleas internas, mil luchas, no me preguntas que hay en mi hucha"
+      },
+
+      { "tiempo": 42, "texto": "Luna, dime que seguro que tú la ves" },
+      {
+        "tiempo": 46,
+        "texto": "Si me piensa un poco en la noche o soy yo solo el que está al revés"
+      },
+      { "tiempo": 50, "texto": "Oye, Luna, porque-porque-porque yo ya no sé" },
+      {
+        "tiempo": 54,
+        "texto": "Compré un ticket, perdí mi turno, se pasó y no lo recordé"
+      },
+
+      { "tiempo": 58, "texto": "Luna, dime que seguro que tú la ves" },
+      {
+        "tiempo": 62,
+        "texto": "Si me piensa un poco en la noche o soy yo solo el que está al revés"
+      },
+      { "tiempo": 66, "texto": "Oye, Luna, porque-porque-porque yo ya no sé" },
+      {
+        "tiempo": 70,
+        "texto": "Compré un ticket, perdí mi turno, se pasó y no lo recordé"
+      },
+
+      { "tiempo": 74, "texto": "Yo no soy pa' ti, tú me llamas estorbo" },
+      { "tiempo": 78, "texto": "Me tumbo solo hablando con monstruo'" },
+      { "tiempo": 82, "texto": "Bésame a mí, tu cama es un horno" },
+      { "tiempo": 86, "texto": "No soy feliz o perdí su morbo" },
+
+      { "tiempo": 90, "texto": "Y que tiene a otros, eso lo sé" },
+      { "tiempo": 94, "texto": "Se le baja rápido el caché" },
+      { "tiempo": 98, "texto": "Solitario, me creo el Che" },
+      { "tiempo": 102, "texto": "El amor, historia de anime, yeah" },
+
+      { "tiempo": 106, "texto": "Baila, báilame, como tú son poca'" },
+      { "tiempo": 110, "texto": "Baila, báilame, le besé en la boca" },
+      { "tiempo": 114, "texto": "Baila, báilame, como tú son poca'" },
+      { "tiempo": 118, "texto": "Baila, báilame, le besé en la boca" },
+
+      { "tiempo": 122, "texto": "Luna, dime que seguro que tú la ves" },
+      {
+        "tiempo": 126,
+        "texto": "Si me piensa un poco en la noche o soy yo solo el que está al revés"
+      },
+      { "tiempo": 130, "texto": "Oye, Luna, porque-porque-porque yo ya no sé" },
+      {
+        "tiempo": 134,
+        "texto": "Compré un ticket, perdí mi turno, se pasó y no lo recordé (fuck)"
+      },
+
+      { "tiempo": 138, "texto": "Luna, dime (dime) que seguro que tú la ves" },
+      {
+        "tiempo": 142,
+        "texto": "Si me piensa un poco en la noche o soy yo solo el que está al revés"
+      },
+      { "tiempo": 146, "texto": "Oye, Luna, porque-porque-porque yo ya no sé" },
+      {
+        "tiempo": 150,
+        "texto": "Compré un ticket, perdí mi turno, se pasó y no lo recordé"
+      },
+
+      { "tiempo": 154, "texto": "(Yo, yo, yo)" },
+      {
+        "tiempo": 156,
+        "texto": "Yo quiero llevarte conmigo de paseo, pero ella me dice que solo los feos"
+      },
+      {
+        "tiempo": 160,
+        "texto": "Si sabes de sobra que no baboseó, pero es que en tu cara te noto el deseo"
+      },
+      {
+        "tiempo": 164,
+        "texto": "No tiene ninguna foto en historias porque tampoco tiene redes sociale'"
+      },
+      {
+        "tiempo": 168,
+        "texto": "Dice que no somo' iguale', me tacha que debo de aprender sociale'"
+      }
+    ]
+  },
+
+  {
+    "idCancion": "4",
+    "titulo": "Farsante",
+    "artista": "Ozuna",
+    "portada": "/img/portada-ozuna.jpg",
+    "audio": "/audios/ozuna-farsante.mp4",
+    "duracion": "231",
+    "delay": 20,
+    "letra": [
+      { "tiempo": 2, "texto": "Extraño tu aroma en la cama" },
+      { "tiempo": 6, "texto": "De ese que dejas cuando entras y sales" },
+      {
+        "tiempo": 10,
+        "texto": "¿Dónde quedaron los beso' y todos los planes?"
+      },
+
+      { "tiempo": 14, "texto": "No sé si vivir o morir" },
+      {
+        "tiempo": 18,
+        "texto": "Me encuentro en un limbo desde que te fuiste de aquí"
+      },
+      {
+        "tiempo": 22,
+        "texto": "Eres la única persona que yo quiero que se venga encima de mí"
+      },
+
+      {
+        "tiempo": 26,
+        "texto": "Mi libertad, no la quiero, tampoco la vida de soltero"
+      },
+      {
+        "tiempo": 30,
+        "texto": "Yo lo que quiero es que quiera' lo mismo que todo queremo'"
+      },
+      {
+        "tiempo": 34,
+        "texto": "Tener una cuenta de banco con dígitos y muchos ceros"
+      },
+      {
+        "tiempo": 38,
+        "texto": "Hacer el amor a diario y, de paso, gastar el dinero"
+      },
+
+      { "tiempo": 42, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 46, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 50, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 54, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" },
+
+      { "tiempo": 58, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 62, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 66, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 70, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" },
+
+      { "tiempo": 74, "texto": "Sin ti yo no me vuelvo a enamorar" },
+      { "tiempo": 78, "texto": "No sé ni qué pensar" },
+      { "tiempo": 82, "texto": "Ya sé por qué todo me sale mal" },
+      { "tiempo": 86, "texto": "Mentí diciéndote que era leal" },
+
+      { "tiempo": 90, "texto": "Siento un amor real" },
+      { "tiempo": 94, "texto": "Le pido a Dios me pueda perdonar" },
+
+      { "tiempo": 98, "texto": "No quiero que te vaya', vamo' a intentarlo" },
+      { "tiempo": 102, "texto": "¿Por qué no salvamo' nuestra relación?" },
+      { "tiempo": 106, "texto": "Tú sabes, bebé, perdona, bebé" },
+
+      { "tiempo": 110, "texto": "Hey, bebé" },
+
+      { "tiempo": 114, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 118, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 122, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 126, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" },
+
+      { "tiempo": 130, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 134, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 138, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 142, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" },
+
+      { "tiempo": 146, "texto": "Extraño tu aroma en la cama" },
+      { "tiempo": 150, "texto": "De ese que dejas cuando entras y sales" },
+      {
+        "tiempo": 154,
+        "texto": "¿Dónde quedaron los beso' y todos los planes?"
+      },
+
+      { "tiempo": 158, "texto": "No sé si vivir o morir" },
+      {
+        "tiempo": 162,
+        "texto": "Me encuentro en un limbo desde que te fuiste de aquí"
+      },
+      {
+        "tiempo": 166,
+        "texto": "Eres la única persona que yo quiero que se venga encima de mí"
+      },
+
+      {
+        "tiempo": 170,
+        "texto": "Mi libertad, no la quiero, tampoco la vida de soltero"
+      },
+      {
+        "tiempo": 174,
+        "texto": "Yo lo que quiero es que quiera' lo mismo que todo queremo'"
+      },
+      {
+        "tiempo": 178,
+        "texto": "Tener una cuenta de banco con dígitos y muchos ceros"
+      },
+      {
+        "tiempo": 182,
+        "texto": "Hacer el amor a diario y, de paso, gastar el dinero"
+      },
+
+      { "tiempo": 186, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 190, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 194, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 198, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" },
+
+      { "tiempo": 202, "texto": "Si todavía me amas como antes" },
+      { "tiempo": 206, "texto": "Ya nada me parece interesante" },
+      { "tiempo": 210, "texto": "Yo sé que en el amor soy un farsante" },
+      { "tiempo": 214, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" }
+    ]
+  }
+]
