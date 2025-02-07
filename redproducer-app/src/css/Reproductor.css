@@ -102,11 +102,15 @@ input[type="range"]::-webkit-slider-thumb {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: rgba(255, 0, 0, 0.8);
     transition: background 0.3s ease-in-out;
+  }
+  #boton-reproductor{
+    width: 55px;
+    height: 55px;
   }
   
   .boton-reproducir:hover {
@@ -155,3 +159,18 @@ input[type="range"]::-webkit-slider-thumb {
 	transition: all 0.5s ease-in-out;
   }
   
+  .icono-letra{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+
+  .icono-letra:hover{
+	opacity: 0.8;
+  }
+
+  .boton-lyrics{
+	background-color: transparent;
+	border: none;
+  }

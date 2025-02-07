@@ -94,9 +94,9 @@ const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra, delay = 0 })
       <p className="tiempo">{formatearTiempo(tiempoActual)}</p>
 
       {/* Botón de reproducción */}
-      <button className="boton-reproducir" onClick={alternarReproduccion}>
+      <button className="boton-reproducir" id ="boton-reproductor" onClick={alternarReproduccion}>
         <img 
-          src={reproduciendo ? "./../img/pause-icon.png" : "./../img/play-icon.png"} 
+          src={reproduciendo ? "./../img/pause_negro.png" : "./../img/play_negro.png"} 
           alt={reproduciendo ? "Pausar" : "Reproducir"} 
         />
       </button>
@@ -105,7 +105,9 @@ const Reproductor = ({ videoSrc, imagenSrc, titulo, artista, letra, delay = 0 })
       <video ref={audioRef} src={videoSrc} style={{ display: "none" }} />
 
       {/* Botón para abrir el modal de letras */}
-      <button className="boton-lyrics" onClick={() => setModalAbierto(true)}>🎵</button>
+      <button className="boton-lyrics" onClick={() => setModalAbierto(true)}>
+        <img src="./../img/notes_250dp_B3B3B3_FILL0_wght400_GRAD0_opsz48.png" alt="" className="icono-letra"/>
+      </button>
 
       {/* Modal con letras */}
       {modalAbierto && <ModalLyrics letra={letra} onClose={() => setModalAbierto(false)} />}

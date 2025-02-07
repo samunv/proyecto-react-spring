@@ -1,4 +1,5 @@
 import "../css/Cancion.css";
+import BotonReproducir from "./BotonReproducir";
 
 function Cancion({ titulo, portada, artista, seleccionarCancion }) {
   return (
@@ -11,7 +12,7 @@ function Cancion({ titulo, portada, artista, seleccionarCancion }) {
         </div>
         {/* Botón que cambia la canción en el reproductor */}
         <button className="boton-reproducir" onClick={seleccionarCancion}>
-          <img src="./../img/play-icon.png" alt="Reproducir" />
+          <BotonReproducir />
         </button>
       </div>
     </div>

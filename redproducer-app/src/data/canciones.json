@@ -531,5 +531,496 @@
       { "tiempo": 210, "texto": "Yo sé que en el amor soy un farsante" },
       { "tiempo": 214, "texto": "Yo sin ti no vuelvo a enamorarme, bebé" }
     ]
+  },
+  {
+    "idCancion": "1",
+    "titulo": "Hoyo",
+    "artista": "Morad",
+    "portada": "/img/portada-morad.jpg",
+    "audio": "/audios/morad-hoyo.mp4",
+    "duracion": "180",
+    "delay": 1,
+    "letra": [
+      { "tiempo": 13, "texto": "Yo me he criado sentado con gente" },
+      { "tiempo": 17, "texto": "Nunca quise dármela de ir solo" },
+      { "tiempo": 20, "texto": "Al tiempo vi que to' era diferente" },
+      { "tiempo": 23, "texto": "Salían problema' y se iban como un vuelo" },
+      { "tiempo": 26, "texto": "Te quieren cuando te ven en el cielo" },
+
+      { "tiempo": 30, "texto": "Así lo aprendí yo de mi abuelo" },
+      { "tiempo": 33, "texto": "Así aprendí en la calle" },
+      {
+        "tiempo": 35,
+        "texto": "Que to' el que te ofrece dinero es solo un anzuelo"
+      },
+      { "tiempo": 38, "texto": "La vida es una lucha y a vece' un duelo" },
+      { "tiempo": 41, "texto": "Madres que no les llega con el sueldo" },
+      { "tiempo": 44, "texto": "Lágrimas que se le caen al suelo" },
+
+      { "tiempo": 48, "texto": "Mientras trabajan limpiando los suelos" },
+      { "tiempo": 50, "texto": "Mientras trabajan se ven en miseria" },
+      { "tiempo": 52, "texto": "Sin dinero tú vive' en periferia" },
+      { "tiempo": 55, "texto": "El mundo está girando como la noria" },
+      { "tiempo": 58, "texto": "Lamine Yamal, de la calle a la gloria" },
+
+      { "tiempo": 62, "texto": "Por eso todo me da paranoia" },
+      { "tiempo": 64, "texto": "Por eso a la policía la odian" },
+      { "tiempo": 66, "texto": "Haciendo el bien y no me apoyan" },
+      { "tiempo": 68, "texto": "Haciendo el mal y me degollan" },
+
+      { "tiempo": 72, "texto": "En la calle no hay fobia" },
+      { "tiempo": 74, "texto": "Que ninguno soñaba con la novia" },
+      { "tiempo": 77, "texto": "Sin dinero to' me agobia" },
+      { "tiempo": 79, "texto": "Pero con dinero se ve to' turbio" },
+
+      { "tiempo": 82, "texto": "Criado en la' afuera', en lo' suburbio'" },
+      { "tiempo": 85, "texto": "Trato con pakis y serbio'" },
+      { "tiempo": 87, "texto": "Todos mirándose serio, todos mirándose serio" },
+      { "tiempo": 90, "texto": "Aquí a muchos los quitaron del medio" },
+      { "tiempo": 93, "texto": "Por querer salir en medio'" },
+
+      { "tiempo": 97, "texto": "Pastor no tenían remedio" },
+      { "tiempo": 99, "texto": "Se engancharon a lo' medio'" },
+
+      { "tiempo": 102, "texto": "Pollo" },
+      {
+        "tiempo": 104,
+        "texto": "Estaba en la calle haciéndolo solo y por eso no recibe apoyo"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Soy el que representa a lo' duro' que estaban metí'o en el hoyo"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Nunca subestime' a nadie porque el mundo gira como un yoyo"
+      },
+      {
+        "tiempo": 116,
+        "texto": "Sube pa'bajo, pa'bajo, pa'rriba y nunca me fijo en yoyo"
+      },
+
+      { "tiempo": 120, "texto": "Pocos saben por lo que yo pasé" },
+      { "tiempo": 122, "texto": "Tú habla' pero sin tener conocer" },
+      { "tiempo": 124, "texto": "Yo sí que sé y digo: 'No sé'" },
+      { "tiempo": 126, "texto": "Si me preguntan me pongo a toser" },
+
+      { "tiempo": 130, "texto": "Trato con uno llamada 'José'" },
+      { "tiempo": 132, "texto": "Con eso tose' omo empecé" },
+      { "tiempo": 134, "texto": "Se tapa la cara y no se les ve" },
+      { "tiempo": 136, "texto": "Me pasa un problema y salen como tre'" },
+
+      { "tiempo": 140, "texto": "Antes soñaba con RS3" },
+      { "tiempo": 142, "texto": "Ahora si quiero tengo unos sei'" },
+      { "tiempo": 144, "texto": "Voy con la Twingo y así no me vei'" },
+      { "tiempo": 146, "texto": "Estoy apuntito de hacer 26" },
+
+      { "tiempo": 150, "texto": "Recuerdo cuando tenía 23" },
+      { "tiempo": 152, "texto": "Haciéndome millo y no lo aparentaba" },
+      { "tiempo": 154, "texto": "2024 tuve la entrada" },
+      { "tiempo": 156, "texto": "Lo hice en silencio, nunca lo chillaba" },
+
+      { "tiempo": 160, "texto": "Como tú, por un mes cambiaste tu actitud" },
+      { "tiempo": 162, "texto": "Estar preso no es tener una virtud" },
+      { "tiempo": 164, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 166, "texto": "No soy nunca en la vida como tú" },
+
+      {
+        "tiempo": 170,
+        "texto": "Como tú, por un mes cambian todo' la actitud"
+      },
+      { "tiempo": 172, "texto": "Estar preso no es una virtud" },
+      { "tiempo": 174, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 176, "texto": "No soy como tú, quieren ser como yo" }
+    ]
+  },
+  {
+    "idCancion": "1",
+    "titulo": "Hoyo",
+    "artista": "Morad",
+    "portada": "/img/portada-morad.jpg",
+    "audio": "/audios/morad-hoyo.mp4",
+    "duracion": "180",
+    "delay": 1,
+    "letra": [
+      { "tiempo": 13, "texto": "Yo me he criado sentado con gente" },
+      { "tiempo": 17, "texto": "Nunca quise dármela de ir solo" },
+      { "tiempo": 20, "texto": "Al tiempo vi que to' era diferente" },
+      { "tiempo": 23, "texto": "Salían problema' y se iban como un vuelo" },
+      { "tiempo": 26, "texto": "Te quieren cuando te ven en el cielo" },
+
+      { "tiempo": 30, "texto": "Así lo aprendí yo de mi abuelo" },
+      { "tiempo": 33, "texto": "Así aprendí en la calle" },
+      {
+        "tiempo": 35,
+        "texto": "Que to' el que te ofrece dinero es solo un anzuelo"
+      },
+      { "tiempo": 38, "texto": "La vida es una lucha y a vece' un duelo" },
+      { "tiempo": 41, "texto": "Madres que no les llega con el sueldo" },
+      { "tiempo": 44, "texto": "Lágrimas que se le caen al suelo" },
+
+      { "tiempo": 48, "texto": "Mientras trabajan limpiando los suelos" },
+      { "tiempo": 50, "texto": "Mientras trabajan se ven en miseria" },
+      { "tiempo": 52, "texto": "Sin dinero tú vive' en periferia" },
+      { "tiempo": 55, "texto": "El mundo está girando como la noria" },
+      { "tiempo": 58, "texto": "Lamine Yamal, de la calle a la gloria" },
+
+      { "tiempo": 62, "texto": "Por eso todo me da paranoia" },
+      { "tiempo": 64, "texto": "Por eso a la policía la odian" },
+      { "tiempo": 66, "texto": "Haciendo el bien y no me apoyan" },
+      { "tiempo": 68, "texto": "Haciendo el mal y me degollan" },
+
+      { "tiempo": 72, "texto": "En la calle no hay fobia" },
+      { "tiempo": 74, "texto": "Que ninguno soñaba con la novia" },
+      { "tiempo": 77, "texto": "Sin dinero to' me agobia" },
+      { "tiempo": 79, "texto": "Pero con dinero se ve to' turbio" },
+
+      { "tiempo": 82, "texto": "Criado en la' afuera', en lo' suburbio'" },
+      { "tiempo": 85, "texto": "Trato con pakis y serbio'" },
+      { "tiempo": 87, "texto": "Todos mirándose serio, todos mirándose serio" },
+      { "tiempo": 90, "texto": "Aquí a muchos los quitaron del medio" },
+      { "tiempo": 93, "texto": "Por querer salir en medio'" },
+
+      { "tiempo": 97, "texto": "Pastor no tenían remedio" },
+      { "tiempo": 99, "texto": "Se engancharon a lo' medio'" },
+
+      { "tiempo": 102, "texto": "Pollo" },
+      {
+        "tiempo": 104,
+        "texto": "Estaba en la calle haciéndolo solo y por eso no recibe apoyo"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Soy el que representa a lo' duro' que estaban metí'o en el hoyo"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Nunca subestime' a nadie porque el mundo gira como un yoyo"
+      },
+      {
+        "tiempo": 116,
+        "texto": "Sube pa'bajo, pa'bajo, pa'rriba y nunca me fijo en yoyo"
+      },
+
+      { "tiempo": 120, "texto": "Pocos saben por lo que yo pasé" },
+      { "tiempo": 122, "texto": "Tú habla' pero sin tener conocer" },
+      { "tiempo": 124, "texto": "Yo sí que sé y digo: 'No sé'" },
+      { "tiempo": 126, "texto": "Si me preguntan me pongo a toser" },
+
+      { "tiempo": 130, "texto": "Trato con uno llamada 'José'" },
+      { "tiempo": 132, "texto": "Con eso tose' omo empecé" },
+      { "tiempo": 134, "texto": "Se tapa la cara y no se les ve" },
+      { "tiempo": 136, "texto": "Me pasa un problema y salen como tre'" },
+
+      { "tiempo": 140, "texto": "Antes soñaba con RS3" },
+      { "tiempo": 142, "texto": "Ahora si quiero tengo unos sei'" },
+      { "tiempo": 144, "texto": "Voy con la Twingo y así no me vei'" },
+      { "tiempo": 146, "texto": "Estoy apuntito de hacer 26" },
+
+      { "tiempo": 150, "texto": "Recuerdo cuando tenía 23" },
+      { "tiempo": 152, "texto": "Haciéndome millo y no lo aparentaba" },
+      { "tiempo": 154, "texto": "2024 tuve la entrada" },
+      { "tiempo": 156, "texto": "Lo hice en silencio, nunca lo chillaba" },
+
+      { "tiempo": 160, "texto": "Como tú, por un mes cambiaste tu actitud" },
+      { "tiempo": 162, "texto": "Estar preso no es tener una virtud" },
+      { "tiempo": 164, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 166, "texto": "No soy nunca en la vida como tú" },
+
+      {
+        "tiempo": 170,
+        "texto": "Como tú, por un mes cambian todo' la actitud"
+      },
+      { "tiempo": 172, "texto": "Estar preso no es una virtud" },
+      { "tiempo": 174, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 176, "texto": "No soy como tú, quieren ser como yo" }
+    ]
+  },
+  {
+    "idCancion": "1",
+    "titulo": "Hoyo",
+    "artista": "Morad",
+    "portada": "/img/portada-morad.jpg",
+    "audio": "/audios/morad-hoyo.mp4",
+    "duracion": "180",
+    "delay": 1,
+    "letra": [
+      { "tiempo": 13, "texto": "Yo me he criado sentado con gente" },
+      { "tiempo": 17, "texto": "Nunca quise dármela de ir solo" },
+      { "tiempo": 20, "texto": "Al tiempo vi que to' era diferente" },
+      { "tiempo": 23, "texto": "Salían problema' y se iban como un vuelo" },
+      { "tiempo": 26, "texto": "Te quieren cuando te ven en el cielo" },
+
+      { "tiempo": 30, "texto": "Así lo aprendí yo de mi abuelo" },
+      { "tiempo": 33, "texto": "Así aprendí en la calle" },
+      {
+        "tiempo": 35,
+        "texto": "Que to' el que te ofrece dinero es solo un anzuelo"
+      },
+      { "tiempo": 38, "texto": "La vida es una lucha y a vece' un duelo" },
+      { "tiempo": 41, "texto": "Madres que no les llega con el sueldo" },
+      { "tiempo": 44, "texto": "Lágrimas que se le caen al suelo" },
+
+      { "tiempo": 48, "texto": "Mientras trabajan limpiando los suelos" },
+      { "tiempo": 50, "texto": "Mientras trabajan se ven en miseria" },
+      { "tiempo": 52, "texto": "Sin dinero tú vive' en periferia" },
+      { "tiempo": 55, "texto": "El mundo está girando como la noria" },
+      { "tiempo": 58, "texto": "Lamine Yamal, de la calle a la gloria" },
+
+      { "tiempo": 62, "texto": "Por eso todo me da paranoia" },
+      { "tiempo": 64, "texto": "Por eso a la policía la odian" },
+      { "tiempo": 66, "texto": "Haciendo el bien y no me apoyan" },
+      { "tiempo": 68, "texto": "Haciendo el mal y me degollan" },
+
+      { "tiempo": 72, "texto": "En la calle no hay fobia" },
+      { "tiempo": 74, "texto": "Que ninguno soñaba con la novia" },
+      { "tiempo": 77, "texto": "Sin dinero to' me agobia" },
+      { "tiempo": 79, "texto": "Pero con dinero se ve to' turbio" },
+
+      { "tiempo": 82, "texto": "Criado en la' afuera', en lo' suburbio'" },
+      { "tiempo": 85, "texto": "Trato con pakis y serbio'" },
+      { "tiempo": 87, "texto": "Todos mirándose serio, todos mirándose serio" },
+      { "tiempo": 90, "texto": "Aquí a muchos los quitaron del medio" },
+      { "tiempo": 93, "texto": "Por querer salir en medio'" },
+
+      { "tiempo": 97, "texto": "Pastor no tenían remedio" },
+      { "tiempo": 99, "texto": "Se engancharon a lo' medio'" },
+
+      { "tiempo": 102, "texto": "Pollo" },
+      {
+        "tiempo": 104,
+        "texto": "Estaba en la calle haciéndolo solo y por eso no recibe apoyo"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Soy el que representa a lo' duro' que estaban metí'o en el hoyo"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Nunca subestime' a nadie porque el mundo gira como un yoyo"
+      },
+      {
+        "tiempo": 116,
+        "texto": "Sube pa'bajo, pa'bajo, pa'rriba y nunca me fijo en yoyo"
+      },
+
+      { "tiempo": 120, "texto": "Pocos saben por lo que yo pasé" },
+      { "tiempo": 122, "texto": "Tú habla' pero sin tener conocer" },
+      { "tiempo": 124, "texto": "Yo sí que sé y digo: 'No sé'" },
+      { "tiempo": 126, "texto": "Si me preguntan me pongo a toser" },
+
+      { "tiempo": 130, "texto": "Trato con uno llamada 'José'" },
+      { "tiempo": 132, "texto": "Con eso tose' omo empecé" },
+      { "tiempo": 134, "texto": "Se tapa la cara y no se les ve" },
+      { "tiempo": 136, "texto": "Me pasa un problema y salen como tre'" },
+
+      { "tiempo": 140, "texto": "Antes soñaba con RS3" },
+      { "tiempo": 142, "texto": "Ahora si quiero tengo unos sei'" },
+      { "tiempo": 144, "texto": "Voy con la Twingo y así no me vei'" },
+      { "tiempo": 146, "texto": "Estoy apuntito de hacer 26" },
+
+      { "tiempo": 150, "texto": "Recuerdo cuando tenía 23" },
+      { "tiempo": 152, "texto": "Haciéndome millo y no lo aparentaba" },
+      { "tiempo": 154, "texto": "2024 tuve la entrada" },
+      { "tiempo": 156, "texto": "Lo hice en silencio, nunca lo chillaba" },
+
+      { "tiempo": 160, "texto": "Como tú, por un mes cambiaste tu actitud" },
+      { "tiempo": 162, "texto": "Estar preso no es tener una virtud" },
+      { "tiempo": 164, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 166, "texto": "No soy nunca en la vida como tú" },
+
+      {
+        "tiempo": 170,
+        "texto": "Como tú, por un mes cambian todo' la actitud"
+      },
+      { "tiempo": 172, "texto": "Estar preso no es una virtud" },
+      { "tiempo": 174, "texto": "Están preso pa' visitar el YouTube" },
+      { "tiempo": 176, "texto": "No soy como tú, quieren ser como yo" }
+    ]
+  },
+  {
+    "idCancion": "2",
+    "titulo": "Tú No lo Amas",
+    "artista": "Anuel AA",
+    "portada": "/img/portada-anuelaa.jpg",
+    "audio": "/audios/anuel-tu-no-lo-amas.mp4",
+    "duracion": "214",
+    "delay": 8,
+    "letra": [
+      {
+        "tiempo": 6,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 10,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 14,
+        "texto": "Y dile que tú no te vas a envolver porque él te trate bien"
+      },
+      {
+        "tiempo": 18,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      {
+        "tiempo": 22,
+        "texto": "Y dile que, a veces, en la vida nos toca perder"
+      },
+      {
+        "tiempo": 26,
+        "texto": "Pero, en esta pelea, él a mí no me gana, él a mí no me gana"
+      },
+      {
+        "tiempo": 30,
+        "texto": "Y dile que la vida es una y que tú eres mi Luna"
+      },
+      {
+        "tiempo": 34,
+        "texto": "Y que yo soy tus noches, y que la noche es larga, y que la noche es larga"
+      },
+
+      { "tiempo": 38, "texto": "Yo tan caliente y tu alma tan fría" },
+      { "tiempo": 42, "texto": "Mi cama se siente vacía" },
+      { "tiempo": 45, "texto": "Yo no sé qué tú hiciste, pero tú te fuiste" },
+      { "tiempo": 48, "texto": "Y te tengo en mi mente to' el día" },
+
+      {
+        "tiempo": 52,
+        "texto": "Baby, dime hasta cuándo voy a seguir esperando"
+      },
+      {
+        "tiempo": 56,
+        "texto": "Trastorna'o y hasta veo tu cara en el humo cuando estoy fumando"
+      },
+      {
+        "tiempo": 60,
+        "texto": "Y te trato de besar, pero se desvanece el humo, y tú te vas, eh"
+      },
+      {
+        "tiempo": 64,
+        "texto": "Me voy en el Aventador, pero choco con la realidad, eh"
+      },
+
+      { "tiempo": 68, "texto": "Y todas estas putas me llaman" },
+      { "tiempo": 72, "texto": "Pero yo te amo a ti na' más, eh" },
+      { "tiempo": 76, "texto": "Y si nadie se ha muerto de amor" },
+      { "tiempo": 80, "texto": "¿Por qué tú no viras pa' atrás? Eh" },
+
+      {
+        "tiempo": 84,
+        "texto": "Yo no quería perderte, y el amor se enredó con la muerte"
+      },
+      {
+        "tiempo": 88,
+        "texto": "Mi conciencia me habla y me dice que toca olvidarte"
+      },
+      {
+        "tiempo": 92,
+        "texto": "Pero donde hubo fuego, las cenizas son pa' recordarte, eh"
+      },
+      {
+        "tiempo": 96,
+        "texto": "Que, tarde o temprano, yo puedo volver a chingarte, baby"
+      },
+
+      {
+        "tiempo": 100,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 104,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 108,
+        "texto": "Y dile que tú no te vas a envolver, porque él te trate bien"
+      },
+      {
+        "tiempo": 112,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      {
+        "tiempo": 116,
+        "texto": "Y dile que a veces en la vida nos toca perder"
+      },
+      {
+        "tiempo": 120,
+        "texto": "Pero, en esta pelea, él a mí no me gana, él a mí no me gana"
+      },
+      {
+        "tiempo": 124,
+        "texto": "Y dile que la vida es una y que tú eres mi Luna"
+      },
+      {
+        "tiempo": 128,
+        "texto": "Y que yo soy tus noches, y que la noche es larga, y que la noche es larga"
+      },
+
+      { "tiempo": 132, "texto": "Bebé, no me dejes en el limbo" },
+      { "tiempo": 136, "texto": "Recuerda como yo te chingo" },
+      { "tiempo": 140, "texto": "Dicen que primero que martes fue lunes" },
+      { "tiempo": 144, "texto": "Pero primero fue domingo" },
+
+      {
+        "tiempo": 148,
+        "texto": "Dile que yo tengo un Draco pinta'o de Versace pa' él"
+      },
+      { "tiempo": 152, "texto": "Y que yo me tranqué en el pasado" },
+      { "tiempo": 156, "texto": "Y que algún día tú vas a volver" },
+
+      { "tiempo": 160, "texto": "Te necesito, por ti yo me quemo en el fuego" },
+      { "tiempo": 164, "texto": "Diablita, yo soy tu diablito" },
+      { "tiempo": 168, "texto": "Extrañándote, extraño tus gritos" },
+
+      { "tiempo": 172, "texto": "Dile que ya tú eres mía otra ve'" },
+      {
+        "tiempo": 176,
+        "texto": "Y que yo me enamoré de tu clito y de tu totito"
+      },
+
+      {
+        "tiempo": 180,
+        "texto": "Dile que se vaya y explícale que tú me la pones encima"
+      },
+      {
+        "tiempo": 184,
+        "texto": "Y que tú me lo guaya', que ya cruzamo' esa raya"
+      },
+
+      {
+        "tiempo": 188,
+        "texto": "Que soy el amor de tu vida, dile que el corazón de él con el mío"
+      },
+      {
+        "tiempo": 192,
+        "texto": "En su vida, más nunca lo mida, que más nunca lo mida"
+      },
+
+      {
+        "tiempo": 196,
+        "texto": "Dile que tú te enredaste en su piel y que es fácil ser fiel"
+      },
+      {
+        "tiempo": 200,
+        "texto": "Pero dile que tú no lo amas y que tú me reclamas"
+      },
+      {
+        "tiempo": 204,
+        "texto": "Y dile que tú no te vas a envolver, porque él te trate bien"
+      },
+      {
+        "tiempo": 208,
+        "texto": "Porque tú todavía me llamas y tú piensas en mi cama"
+      },
+
+      { "tiempo": 212, "texto": "Uah" },
+      { "tiempo": 214, "texto": "Anuel" },
+      { "tiempo": 216, "texto": "Real hasta la muerte, ¿oíste, bebé?" },
+      { "tiempo": 218, "texto": "Los intocables, los Iluminatis" },
+      { "tiempo": 220, "texto": "Chris Jedi, Gaby Music" }
+    ]
   }
 ]
