@@ -3,7 +3,7 @@ import "../css/Reproductor.css";
 import ModalLyrics from "./ModalLyrics";
 
 // Componente ModalVolumen para ajustar el volumen en una ventana
-const ModalVolumen  = ({ volume, setVolume, onClose }) => {
+const ModalVolumen = ({ volume, setVolume, onClose }) => {
   return (
     <div className="modal-volumen-overlay">
       <div className="modal-volumen-content">
@@ -16,7 +16,7 @@ const ModalVolumen  = ({ volume, setVolume, onClose }) => {
           className="barra-volumen"
         />
         <button className="modal-volumen-cerrar" onClick={onClose}>
-        ✖
+          ✖
         </button>
       </div>
     </div>
@@ -96,6 +96,10 @@ const Reproductor = ({
 
   return (
     <div className="reproductor">
+      <div
+        className="fondo-borroso"
+        style={{ backgroundImage: `url(${imagenSrc})` }}
+      ></div>
       {/* Portada */}
       <div className="portada">
         {imagenSrc ? (
@@ -153,8 +157,8 @@ const Reproductor = ({
           <img
             src={
               reproduciendo
-                ? "./../img/pause_negro.png"
-                : "./../img/play_negro.png"
+                ? "./../img/pause_250dp_B3B3B3_FILL0_wght400_GRAD0_opsz48.png"
+                : "./../img/play_arrow_250dp_B3B3B3_FILL0_wght400_GRAD0_opsz48 (1).png"
             }
             alt={reproduciendo ? "Pausar" : "Reproducir"}
           />
@@ -164,10 +168,7 @@ const Reproductor = ({
         <video ref={audioRef} src={videoSrc} style={{ display: "none" }} />
 
         {/* Botón para abrir el modal de letras */}
-        <button
-          className="boton-lyrics"
-          onClick={() => setModalAbierto(true)}
-        >
+        <button className="boton-lyrics" onClick={() => setModalAbierto(true)}>
           <img
             src="./../img/notes_250dp_B3B3B3_FILL0_wght400_GRAD0_opsz48.png"
             alt="Letras"
@@ -175,8 +176,6 @@ const Reproductor = ({
           />
         </button>
       </div>
-
-			
 
       {/* Modal con letras */}
       {modalAbierto && (
@@ -190,7 +189,8 @@ const Reproductor = ({
 
       {/* Modal para ajustar el volumen */}
       {modalVolumenAbierto && (
-        <ModalVolumen className="modal-volumen"
+        <ModalVolumen
+          className="modal-volumen"
           volume={volume}
           setVolume={setVolume}
           onClose={() => setModalVolumenAbierto(false)}

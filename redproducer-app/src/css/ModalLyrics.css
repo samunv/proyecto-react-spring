@@ -12,19 +12,31 @@
 	z-index: 1000;
 }
 
-/* Contenedor del modal */
-.modal-content {
+@keyframes scroll-lento {
+	0% {
+	  scroll-behavior: smooth;
+	  scrollTop: 0;
+	}
+	100% {
+	  scroll-behavior: smooth;
+	  scrollTop: 100%;
+	}
+  }
+  
+  .modal-content {
 	background: rgba(34, 34, 34, 0.9);
 	padding: 20px;
 	width: 80%;
 	max-height: 80vh;
 	overflow-y: auto;
-	
 	text-align: center;
 	border-radius: 10px;
 	color: white;
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-}
+  
+	animation: scroll-lento 20s linear infinite;
+  }
+  
 
 /* Botón de cerrar */
 .cerrar-modal {

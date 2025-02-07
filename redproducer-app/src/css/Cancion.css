@@ -1,5 +1,5 @@
 .contenedor-cancion {
-	background-color: #1e1e1e;
+	background-color: rgb(16, 17, 19);
 	border-radius: 10px;
 	width: 300px;
 	height: 150px;
@@ -10,6 +10,8 @@
 	margin-bottom: 20px;
 	overflow: hidden;
 	object-fit: cover;
+	margin: 20px;
+	padding: 5px;
 }
 
 .portada-cancion {
@@ -35,15 +37,29 @@
 }
 
 
-
-.btn-play {
-	width: 30%; 
-	aspect-ratio: 1 / 1; 
-	border-radius: 10px;
+.boton-reproducir {
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: transparent;
 	transition: all 0.3s ease;
-}
-
-.btn-play:hover {
-	opacity: 0.8;
-}
+	position: relative;
+	border: 2px solid red;
+	
+	
+  }
+  
+  .boton-reproducir:hover{
+	
+  }
+  
+  .boton-reproducir img {
+	width: 60%;
+	height: auto;
+	transition: transform 0.2s ease-in-out;
+  }
+  

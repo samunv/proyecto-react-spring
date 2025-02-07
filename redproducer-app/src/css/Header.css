@@ -1,5 +1,5 @@
 .header {
-	background: rgba(0, 0, 0, 0.575); /* Negro translúcido */
+	background: rgb(30, 30, 30, 0.575); /* Negro translúcido */
     backdrop-filter: blur(10px); /* Difuminado */
     -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
 	height: 70px;
