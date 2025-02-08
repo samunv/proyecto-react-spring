@@ -33,6 +33,7 @@
 	filter: blur(10px);
 	opacity: 0.2; /* Ajusta la opacidad según prefieras */
 	z-index: -1; /* Para que quede detrás del contenido */
+	transition: all 0.3s ease;
   }
 
 /* Imagen de portada */
@@ -50,6 +51,7 @@
 	overflow: hidden;
 	animation: rotar 15s linear infinite; /* 5s para una vuelta completa */
 	margin-bottom: 20px;
+	transition: all 0.3s ease;
 }
 
 @keyframes rotar {

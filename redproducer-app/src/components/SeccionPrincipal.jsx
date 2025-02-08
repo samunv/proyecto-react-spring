@@ -7,7 +7,7 @@ function SeccionPrincipal({seleccionarCancion}) {
   const [busqueda, setBusqueda] = useState("");
 
   // Filtrar las canciones según la búsqueda
-  const filtrarElementos = canciones.filter((cancion) =>
+  const filtrarCanciones = canciones.filter((cancion) =>
 	cancion.titulo.toLowerCase().includes(busqueda.toLowerCase())
   );
 
@@ -30,8 +30,8 @@ function SeccionPrincipal({seleccionarCancion}) {
 		</button>
 	  </div>
 	  <div className="contenedor-canciones">
-		{filtrarElementos.length > 0 ? (
-		  filtrarElementos.map((cancion, i) => (
+		{filtrarCanciones.length > 0 ? (
+		  filtrarCanciones.map((cancion, i) => (
 			<Cancion
 			  key={i}
 			  titulo={cancion.titulo}
