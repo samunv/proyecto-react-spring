@@ -1,5 +1,5 @@
 .contenedor-cancion {
-	background-color: rgb(16, 17, 19);
+	background-color: rgb(16, 17, 19, 0.7);
 	border-radius: 10px;
 	width: 300px;
 	height: 150px;
@@ -11,18 +11,21 @@
 	overflow: hidden;
 	object-fit: cover;
 	margin: 20px;
-	padding: 5px;
+	transition: all 0.3s ease;
+}
+.contenedor-cancion:hover{
+	background-color: rgb(16, 17, 19);
 }
 
 .portada-cancion {
-	width: 40%; /* El ancho será el 50% del contenedor */
+	width: 35%; 
 	aspect-ratio: 1 / 1; /* Mantiene la proporción de 1:1 (cuadrado) */
 	border-radius: 5px;
 }
 
 .texto-boton {
 	margin-left: 0px;
-	font-size: 16px;
+	font-size: 14px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
