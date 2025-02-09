@@ -1,7 +1,7 @@
 .contenedor-cancion {
 	background-color: rgb(16, 17, 19, 0.7);
 	border-radius: 10px;
-	width: 300px;
+	width: 27%;
 	height: 150px;
 	display: flex;
 	align-items: center;
@@ -13,13 +13,15 @@
 	margin: 20px;
 	transition: all 0.3s ease;
 }
-.contenedor-cancion:hover{
+
+.contenedor-cancion:hover {
 	background-color: rgb(16, 17, 19);
 }
 
 .portada-cancion {
-	width: 35%; 
-	aspect-ratio: 1 / 1; /* Mantiene la proporción de 1:1 (cuadrado) */
+	width: 35%;
+	aspect-ratio: 1 / 1;
+	/* Mantiene la proporción de 1:1 (cuadrado) */
 	border-radius: 5px;
 }
 
@@ -39,6 +41,10 @@
 	width: 100%;
 }
 
+.texto-cancion h4 {
+	color: white;
+}
+
 
 .boton-reproducir {
 	cursor: pointer;
@@ -52,17 +58,34 @@
 	transition: all 0.3s ease;
 	position: relative;
 	border: 2px solid red;
-	
-	
-  }
-  
-  .boton-reproducir:hover{
-	
-  }
-  
-  .boton-reproducir img {
+
+
+}
+
+.boton-reproducir:hover {}
+
+.boton-reproducir img {
 	width: 60%;
 	height: auto;
 	transition: transform 0.2s ease-in-out;
-  }
-  
+}
+
+
+@media(max-width:600px) {
+	.contenedor-cancion {
+		background-color: rgb(16, 17, 19, 0.7);
+		border-radius: 10px;
+		width: 27%;
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+		object-fit: cover;
+		margin: 20px;
+		transition: all 0.3s ease;
+	}
+}

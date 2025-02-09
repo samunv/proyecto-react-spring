@@ -7,7 +7,7 @@ function Cancion({ titulo, portada, artista, seleccionarCancion }) {
       <img src={portada} alt={titulo} className="portada-cancion" />
       <div className="texto-boton">
         <div className="texto-cancion">
-          <strong>{titulo}</strong>
+          <h4>{titulo}</h4>
           <p>{artista}</p>
         </div>
         {/* Botón que cambia la canción en el reproductor */}

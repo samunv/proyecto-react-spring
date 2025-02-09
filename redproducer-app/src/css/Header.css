@@ -1,10 +1,14 @@
 .header {
-	background: rgb(30, 30, 30, 0.575); /* Negro translúcido */
-    backdrop-filter: blur(10px); /* Difuminado */
-    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+	background: rgb(30, 30, 30, 0.575);
+	/* Negro translúcido */
+	backdrop-filter: blur(10px);
+	/* Difuminado */
+	-webkit-backdrop-filter: blur(10px);
+	/* Soporte para Safari */
 	height: 70px;
+	top: 0%;
 	position: fixed;
-	min-width: 100%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -13,7 +17,7 @@
 
 .nav {
 	color: #B3B3B3;
-	margin-right: 50px;
+	padding: 20px;
 }
 
 .nav ul {
@@ -30,7 +34,7 @@
 .nav ul li a {
 	color: #B3B3B3;
 	text-decoration: none;
-	
+
 	border-radius: 10px;
 	transition: all 0.3s ease;
 	display: flex;
@@ -44,14 +48,34 @@
 
 }
 
-.nav ul li a img{
+.nav ul li a img {
 	width: 25px;
 	height: 25px;
 }
 
-.icono-app {
+
+
+.icono-app img {
 	width: 40px;
 	height: 40px;
 	border-radius: 5px;
-	margin-left: 50px;
+	padding: 20px;
+}
+
+@media(max-width:1100px) {
+	.icono-app img {
+		width: 30px;
+		height: 30px;
+	}
+	.header{
+		position: static;
+	}
+	.no-p-movil {
+		display: none;
+	}
+	.nav ul li a img {
+		width: 25px;
+		height: 25px;
+	}
+	
 }

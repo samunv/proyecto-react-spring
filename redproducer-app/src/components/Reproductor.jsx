@@ -44,7 +44,12 @@ const Reproductor = ({
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.load();
-      setReproduciendo(false);
+
+      // Reproducir la canción automáticamente tras pulsar en el botón de play del Componente Canción
+      audioRef.current
+        .play()
+        .then(() => setReproduciendo(true))
+        .catch((error) => console.log("Error al reproducir:", error));
 
       const delayTimeout = setTimeout(() => {
         setInicioLetra(true);
@@ -110,7 +115,7 @@ const Reproductor = ({
       </div>
 
       {/* Información de la canción */}
-      <h3 className="titulo">{titulo || "Título desconocido"}</h3>
+      <h2 className="titulo">{titulo || "Título desconocido"}</h2>
       <p className="artista">{artista || "Artista desconocido"}</p>
 
       {/* Barra de progreso */}

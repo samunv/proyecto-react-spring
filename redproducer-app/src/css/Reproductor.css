@@ -2,9 +2,7 @@
 
 /* Contenedor del reproductor */
 .reproductor {
-	
 	background-color: black;
-  
 	padding: 20px;
 	text-align: center;
 	color: white;
@@ -20,6 +18,7 @@
 	min-height: calc(100vh - 70px);
 	z-index: 1000;
 	overflow: hidden;
+	width: 15%;
 }
 
 .fondo-borroso {
@@ -79,8 +78,9 @@
 /* Información de la canción */
 .titulo {
 	font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   margin: 5px 0;
+  color: white;
 }
 
 .artista {
@@ -200,3 +200,8 @@ input[type="range"]::-webkit-slider-thumb {
 	width: 70%;
   }
 
+  @media(max-width:1100px){
+	.reproductor{
+		display: none;
+	}
+  }

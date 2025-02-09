@@ -1,15 +1,15 @@
 .contenedor-principal {
-	height: 100%;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
 	position: absolute;
 	left: 0%;
 	top: 70px;
 	min-height: calc(100vh - 70px);
 	width: 80%;
-	padding-bottom: 100px;
+	padding: 20px;
+	overflow: hidden;
 
 }
 
@@ -20,7 +20,7 @@
 	font-size: 40px;
 	text-align: left;
 	width: 90%;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .contenedor-canciones {
@@ -63,7 +63,7 @@
 	border: 2px solid #1e1e1e;
 	border-radius: 10px;
 	cursor: pointer;
-	transition: transform 0.3s ease;
+	transition: all 0.3s ease;
 	margin-left: 20px;
 	padding: 5px;
 }
@@ -80,4 +80,46 @@
 
 .no-results-p {
 	color: #B3B3B3;
+}
+
+.texto-busqueda {
+	color: #B3B3B3;
+	margin-top: 30px;
+	width: 90%;
+}
+
+.boton-encendido{	
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	margin-left: 20px;
+	padding: 5px;
+	transition: all 0.3s ease;
+}
+
+.boton-encendido img {
+	width: 35px;
+	height: 35px;
+	transition: filter 0.3s ease;
+}
+
+@media(max-width:1100px) {
+	.contenedor-principal {
+		width: 95%;
+		padding: 0px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+
+	}
+
+	.titulo-pagina-inicio {
+		color: #B3B3B3;
+		font-size: 22px;
+		text-align: left;
+		width: 90%;
+	}
 }
