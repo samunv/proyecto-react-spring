@@ -37,7 +37,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
 		</button>
 	  </div>
 	  <p className="texto-busqueda">
-		{busqueda ? "Resultados de " + busqueda + ":" : "Canciones:"}
+		{busqueda ? "Resultados de " + busqueda : "Canciones"}
 	  </p>
 	  <div className="contenedor-canciones">
 		{filtrarCanciones.length > 0 ? (
