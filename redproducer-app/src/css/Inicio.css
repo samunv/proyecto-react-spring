@@ -1,8 +1,9 @@
 .pagina-inicio{
-	display: flex;
-	flex-direction: row;
+	display: flex; 
 	width: 100%;
-	
+	height: calc(100% - 70px); 
+	margin-top: 70px; 
+	overflow: hidden;
 
 }
 

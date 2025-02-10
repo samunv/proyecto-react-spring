@@ -1,12 +1,10 @@
 import './App.css';
 import Header from './components/Header'; // Importa el Header
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importamos los componentes necesarios
 
 // Importa los componentes de las páginas
 import Inicio from './components/Inicio';
 import Panel from './components/Panel';
-import Cancion from './components/Cancion';
 
 
 function App() {

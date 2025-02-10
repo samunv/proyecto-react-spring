@@ -20,7 +20,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
 		<input
 		  type="text"
 		  className="buscador"
-		  placeholder="¿Qué quieres escuchar?"
+		  placeholder="¿Qué quieres escuchar? ♫"
 		  value={busquedaTemporal}
 		  onChange={(e) => setBusquedaTemporal(e.target.value)}
 		/>
