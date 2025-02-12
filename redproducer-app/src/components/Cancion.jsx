@@ -1,9 +1,9 @@
 import "../css/Cancion.css";
 import BotonReproducir from "./BotonReproducir";
 
-function Cancion({ titulo, portada, artista, seleccionarCancion }) {
+function Cancion({ titulo, portada, artista, seleccionarCancion, activo }) {
   return (
-    <div className="contenedor-cancion">
+    <div className={activo ? "contenedor-cancion":"activa"}>
       <img src={portada} alt={titulo} className="portada-cancion" />
       <div className="texto-boton">
         <div className="texto-cancion">

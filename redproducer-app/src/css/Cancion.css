@@ -16,6 +16,12 @@
 	transition: all 0.3s ease;
 }
 
+.contenedor-cancion.activa{
+	background-color: red;
+}
+
+
+
 .contenedor-cancion:hover {
 	background-color: rgb(16, 17, 19);
 }

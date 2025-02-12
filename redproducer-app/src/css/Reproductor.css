@@ -27,7 +27,7 @@
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	filter: blur(20px);
+	filter: blur(30px);
 	opacity: 0.4;
 	/* Ajusta la opacidad según prefieras */
 	z-index: -1;
@@ -47,14 +47,13 @@
 	justify-content: center;
 	margin-bottom: 10px;
 	overflow: hidden;
-	animation: rotar 15s linear infinite;
-	/* 5s para una vuelta completa */
 	margin-bottom: 20px;
-	transition: all 0.5s ease;
+	border-radius: 10px;
 }
 
 
-/* @keyframes rotar {
+
+ @keyframes rotar {
 	from {
 		transform: rotate(0deg);
 	}
@@ -62,7 +61,7 @@
 	to {
 		transform: rotate(360deg);
 	}
-} */
+}
 
 
 .imagen-portada {
@@ -175,11 +174,16 @@ input[type="range"]::-webkit-slider-thumb {
 	transition: all 0.5s ease-in-out;
 }
 
-.icono-letra {
-	width: 30px;
-	height: 30px;
+.iconos-controlador svg{
 	cursor: pointer;
 	transition: all 0.3s ease;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.iconos-controlador svg:hover{
+	fill: black;
+	background-color: white;
 }
 
 .icono-letra:hover {
