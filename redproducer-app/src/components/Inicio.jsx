@@ -14,6 +14,7 @@ function Inicio() {
 	// Estado global para manejar la canción actual
 	const [cancionActual, setCancionActual] = useState(obtenerCancionAleatoria(canciones)); // Canción por defecto
 	
+	
 	const [reproduciendo, setReproduciendo] = useState(false);
 
 	return (
