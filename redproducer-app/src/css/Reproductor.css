@@ -42,13 +42,14 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 	/* Borde sombreado */
 	background: #1c1c1c;
-	display: flex;
+	display: flex;;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 10px;
 	overflow: hidden;
 	margin-bottom: 20px;
-	border-radius: 10px;
+	border-radius: 50%;
+	animation: rotar 15s infinite linear;
 }
 
 
