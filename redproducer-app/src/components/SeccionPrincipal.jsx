@@ -15,7 +15,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
 	const fetchCanciones = async () => {
 	  try {
 		// Realizamos la solicitud a la API
-		const response = await fetch("https://api.example.com/canciones");
+		const response = await fetch("http://localhost:8080/api/canciones");
 		if (!response.ok) {
 			setError(new Error("No se pudieron cargar las canciones"))
 		  throw error;
