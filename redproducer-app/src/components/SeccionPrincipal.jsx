@@ -24,7 +24,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
 		setCancionesAPI(data); // Guardamos las canciones en el estado
 	  } catch (err) {
 		setError(err); // Si ocurre un error, lo guardamos en el estado
-		alert(error)
+		console.log(error);
 	  }
 	};
 

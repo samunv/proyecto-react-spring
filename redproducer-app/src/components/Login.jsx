@@ -1,5 +1,6 @@
+import "../css/Login.css"
 function Login() {
-  <form className="">
+  <form className="login-formulario">
 	<label htmlFor="nombre">Nombre</label>
 	<input type="text" id="nombre" />
 

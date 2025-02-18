@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../css/Inicio.css";
 import SeccionPrincipal from "./SeccionPrincipal";
 import Reproductor from "./Reproductor";
