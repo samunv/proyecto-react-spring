@@ -8,7 +8,7 @@ function Cancion({ titulo, portada, artista, seleccionarCancion, activo }) {
       <div className="texto-boton">
         <div className="texto-cancion">
           <h4>{titulo}</h4>
-          <p>{artista}</p>
+          <p>{artista.nombre}</p>
         </div>
         {/* Botón que cambia la canción en el reproductor */}
         <button className="boton-reproducir" onClick={seleccionarCancion}>

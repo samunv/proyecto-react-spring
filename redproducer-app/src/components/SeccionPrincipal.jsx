@@ -70,13 +70,14 @@ function SeccionPrincipal({ seleccionarCancion }) {
 		{filtrarCanciones.length > 0 ? (
 		  filtrarCanciones.map((cancion, i) => (
 			<Cancion
-			  key={i}
-			  titulo={cancion.titulo}
-			  portada={cancion.portada}
-			  artista={cancion.artista}
-			  seleccionarCancion={() => seleccionarCancion(cancion)}
-			  activo={true}
-			/>
+  key={i}
+  titulo={cancion.titulo}
+  portada={cancion.portada}
+  artista={cancion.artista ? cancion.artista.nombre : "Desconocido"} // Manejo de error en caso de que el artista sea null
+  seleccionarCancion={() => seleccionarCancion(cancion)}
+  activo={true}
+/>
+
 		  ))
 		) : (
 		  <div className="no-results">

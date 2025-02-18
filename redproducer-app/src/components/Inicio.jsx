@@ -27,7 +27,7 @@ function Inicio() {
 				videoSrc={cancionActual.audio}
 				imagenSrc={cancionActual.portada}
 				titulo={cancionActual.titulo}
-				artista={cancionActual.artista}
+				artista={cancionActual.artista.nombre}
 				letra={cancionActual.letra || []}
 			/>
 		</section>
