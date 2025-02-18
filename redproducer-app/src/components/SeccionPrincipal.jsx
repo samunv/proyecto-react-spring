@@ -1,15 +1,38 @@
 import "../css/SeccionPrincipal.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Cancion from "./Cancion";
 import canciones from "../data/canciones.json";
 
 function SeccionPrincipal({ seleccionarCancion }) {
   const [busqueda, setBusqueda] = useState("");
-
   const [busquedaTemporal, setBusquedaTemporal] = useState("");
 
+  const [cancionesAPI, setCancionesAPI] = useState([]);
+  const [error, setError] = useState("");
+
+  // Realizar la solicitud a la API para obtener las canciones
+  useEffect(() => {
+	const fetchCanciones = async () => {
+	  try {
+		// Realizamos la solicitud a la API
+		const response = await fetch("https://api.example.com/canciones");
+		if (!response.ok) {
+			setError(new Error("No se pudieron cargar las canciones"))
+		  throw error;
+		}
+		const data = await response.json();
+		setCancionesAPI(data); // Guardamos las canciones en el estado
+	  } catch (err) {
+		setError(err); // Si ocurre un error, lo guardamos en el estado
+		alert(error)
+	  }
+	};
+
+	fetchCanciones();
+  }, []);
+
   // Filtrar las canciones según la búsqueda
-  const filtrarCanciones = canciones.filter((cancion) =>
+  const filtrarCanciones = cancionesAPI.filter((cancion) =>
 	cancion.titulo.toLowerCase().includes(busqueda.toLowerCase())
   );
 
