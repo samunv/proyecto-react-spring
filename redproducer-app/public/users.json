@@ -1,0 +1,17 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "admin123",
+        "token": "admin-token-123"
+      },
+      {
+        "id": 2,
+        "username": "user",
+        "password": "user123",
+        "token": "user-token-456"
+      }
+    ]
+  }
+  

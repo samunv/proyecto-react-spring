@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/Login.css"; // Importamos los estilos
+import logo from "/img/logo-app2.png"; // Asegúrate de que la ruta sea correcta
 
 function Login() {
   const [username, setUsername] = useState("");
@@ -34,11 +35,10 @@ function Login() {
 
   return (
     <div className="login-wrapper">
-      {/* Barra superior con logo */}
-      <div className="login-container">
-        <img src="/img/logo-app2.png" alt="Logo" className="logo" />
       {/* Contenedor del formulario */}
       <div className="login-container">
+        <img src={logo} alt="Logo" className="logo" /> {/* Imagen dentro del contenedor */}
+
         <h2>Iniciar Sesión</h2>
         {error && <p className="error-message">{error}</p>}
         <input
@@ -54,9 +54,9 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleLogin}>Ingresar</button>
+		
       </div>
     </div>
-	</div>
   );
 }
 
