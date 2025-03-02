@@ -1,5 +1,12 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { onAuthStateChanged, signInWithEmailAndPassword, signOut, createUserWithEmailAndPassword } from "firebase/auth";
+import { 
+  onAuthStateChanged, 
+  signInWithEmailAndPassword, 
+  signOut, 
+  createUserWithEmailAndPassword, 
+  setPersistence, 
+  browserSessionPersistence 
+} from "firebase/auth";
 import { auth } from "../firebaseConfig";
 
 const AuthContext = createContext();
@@ -23,7 +30,17 @@ export const AuthProvider = ({ children }) => {
     return () => unsubscribe();
   }, []);
 
-  const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
+  const login = async (email, password) => {
+    try {
+      await setPersistence(auth, browserSessionPersistence); // 🔴 No mantiene la sesión después de cerrar la web
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      return userCredential;
+    } catch (error) {
+      console.error("Error en inicio de sesión:", error.code, error.message);
+      throw error;
+    }
+  };
+
   const register = (email, password) => createUserWithEmailAndPassword(auth, email, password);
   const logout = () => signOut(auth);
 
