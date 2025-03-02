@@ -6,10 +6,10 @@
 	justify-content: center;
 	background-color: #121212;
 	height: 100vh;
-  }
-  
-  /* Contenedor del login */
-  .login-container {
+}
+
+/* Contenedor del login */
+.login-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -17,28 +17,28 @@
 	width: 400px;
 	background-color: #1e1e1e;
 	padding: 50px;
-	border-radius: 10px;
-	margin-top: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
 	text-align: center;
-  }
-  
-  /* Logo dentro del contenedor */
-  .logo {
+}
+
+/* Logo */
+.logo {
 	width: 70px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-  }
-  
-  /* Título */
-  .login-container h2 {
+}
+
+/* Título */
+.login-container h2 {
 	color: white;
 	font-size: 24px;
 	margin-bottom: 20px;
-	text-align: center;
-  }
-  
-  /* Campos de entrada */
-  .login-container input {
+	font-weight: 600;
+}
+
+/* Campos de entrada */
+.login-container input {
 	width: 100%;
 	padding: 12px;
 	margin: 10px 0;
@@ -48,54 +48,57 @@
 	font-size: 16px;
 	color: #b3b3b3;
 	outline: none;
-	transition: all 0.3s ease;
-  }
-  
-  .login-container input:focus {
+	transition: all 0.3s ease-in-out;
+}
+
+.login-container input:focus {
 	border-color: red;
 	background-color: #252525;
 	color: white;
-  }
-  
-  /* Botón de inicio de sesión */
-  .login-container button {
+	transform: scale(1.02);
+}
+
+/* Botón de inicio de sesión */
+.login-container button {
 	width: 70%;
 	padding: 12px;
-	background-color: red;
+	background: linear-gradient(90deg, red, rgb(200, 0, 0));
 	color: rgb(0, 0, 0);
 	font-size: 16px;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
-	transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out;
 	margin-top: 20px;
-  }
-  
-  .login-container button:hover {
-	background-color: rgb(200, 0, 0);
-  }
-  
-  /* Mensaje de error */
-  .error-message {
+	font-weight: bold;
+}
+
+.login-container button:hover {
+	background: linear-gradient(90deg, rgb(200, 0, 0), rgb(255, 50, 50));
+	transform: scale(1.05);
+	box-shadow: 0px 4px 15px rgba(255, 0, 0, 0.4);
+}
+
+/* Mensaje de error */
+.error-message {
 	color: red;
 	font-size: 14px;
 	margin-bottom: 10px;
-	text-align: center;
-  }
-  
-  /* Responsive */
-  @media (max-width: 600px) {
+	font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
 	.login-container {
-	  width: 90%;
-	  padding: 20px;
+		width: 90%;
+		padding: 30px;
 	}
-  
+
 	.login-container h2 {
-	  font-size: 20px;
+		font-size: 20px;
 	}
-  
+
 	.logo {
-	  width: 80px;
+		width: 60px;
 	}
-  }
-  
+}

@@ -1,63 +1,59 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { useAuth } from "../contexts/authContext";
 import { useNavigate } from "react-router-dom";
-import "../css/Login.css"; // Importamos los estilos
-import logo from "/img/logo-app2.png"; // Asegúrate de que la ruta sea correcta
+import "../css/Login.css"; // Importamos el CSS
 
-function Login() {
-  const [username, setUsername] = useState("");
+const Login = () => {
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { login } = useAuth(); // Usamos el login de Firebase desde el contexto
+  const navigate = useNavigate();
   const [error, setError] = useState("");
-  const navigate = useNavigate(); // Hook para redirigir
 
-  const handleLogin = async () => {
-    setError(""); // Reseteamos errores antes de hacer la petición
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+
+    console.log("Intentando iniciar sesión con:", email, password); // 🔍 Verificar datos antes de enviar
 
     try {
-      const response = await fetch("http://localhost:8080/auth/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ username, password }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Credenciales incorrectas");
-      }
-
-      const data = await response.json();
-      localStorage.setItem("token", data.token);
-      navigate("/panel"); // Redirigir después del login exitoso
+      const userCredential = await login(email, password);
+      console.log("Inicio de sesión exitoso:", userCredential);
+      navigate("/inicio");
     } catch (error) {
-      setError(error.message);
+      console.error("Error en inicio de sesión:", error.code, error.message);
+      setError("❌ Credenciales incorrectas. Inténtalo de nuevo.");
     }
   };
 
   return (
     <div className="login-wrapper">
-      {/* Contenedor del formulario */}
       <div className="login-container">
-        <img src={logo} alt="Logo" className="logo" /> {/* Imagen dentro del contenedor */}
-
+        {/* Imagen de logo: Vite usa `public/` como base, por lo que no se debe incluir "public/" en la ruta */}
+        <img src="/img/logo-app2.png" alt="Logo" className="logo" />
         <h2>Iniciar Sesión</h2>
         {error && <p className="error-message">{error}</p>}
-        <input
-          type="text"
-          placeholder="Usuario"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button onClick={handleLogin}>Ingresar</button>
-		
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            placeholder="Correo electrónico"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <input
+            type="password"
+            placeholder="Contraseña"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+          <button type="submit">Entrar</button>
+        </form>
       </div>
     </div>
   );
-}
+};
 
 export default Login;
+
