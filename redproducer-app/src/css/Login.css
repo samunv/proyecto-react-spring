@@ -102,3 +102,22 @@
 		width: 60px;
 	}
 }
+/* Texto para alternar entre login y registro */
+.toggle-text {
+	margin-top: 15px;
+	color: #b3b3b3;
+	font-size: 14px;
+  }
+  
+  .toggle-text span {
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .toggle-text span:hover {
+	color: rgb(200, 0, 0);
+	text-decoration: underline;
+  }
+  

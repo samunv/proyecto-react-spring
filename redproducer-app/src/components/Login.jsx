@@ -6,32 +6,39 @@ import "../css/Login.css"; // Importamos el CSS
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { login } = useAuth(); // Usamos el login de Firebase desde el contexto
+  const { login, register } = useAuth(); // Se añade `register` para crear cuentas
   const navigate = useNavigate();
   const [error, setError] = useState("");
+  const [isRegistering, setIsRegistering] = useState(false); // Estado para alternar entre login y registro
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
 
-    console.log("Intentando iniciar sesión con:", email, password); // 🔍 Verificar datos antes de enviar
+    console.log(isRegistering ? "Registrando usuario" : "Iniciando sesión", email, password);
 
     try {
-      const userCredential = await login(email, password);
-      console.log("Inicio de sesión exitoso:", userCredential);
-      navigate("/inicio");
+      if (isRegistering) {
+        // Registro de usuario
+        await register(email, password);
+        alert("✅ Usuario registrado correctamente. Ahora inicia sesión.");
+        setIsRegistering(false);
+      } else {
+        // Inicio de sesión
+        await login(email, password);
+        navigate("/inicio");
+      }
     } catch (error) {
-      console.error("Error en inicio de sesión:", error.code, error.message);
-      setError("❌ Credenciales incorrectas. Inténtalo de nuevo.");
+      console.error("Error en autenticación:", error.code, error.message);
+      setError("❌ Ocurrió un error. Inténtalo de nuevo.");
     }
   };
 
   return (
     <div className="login-wrapper">
       <div className="login-container">
-        {/* Imagen de logo: Vite usa `public/` como base, por lo que no se debe incluir "public/" en la ruta */}
         <img src="/img/logo-app2.png" alt="Logo" className="logo" />
-        <h2>Iniciar Sesión</h2>
+        <h2>{isRegistering ? "Regístrate" : "Iniciar Sesión"}</h2>
         {error && <p className="error-message">{error}</p>}
         <form onSubmit={handleSubmit}>
           <input
@@ -48,12 +55,17 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button type="submit">Entrar</button>
+          <button type="submit">{isRegistering ? "Registrarse" : "Entrar"}</button>
         </form>
+        <p className="toggle-text">
+          {isRegistering ? "¿Ya tienes una cuenta?" : "¿No tienes cuenta?"}{" "}
+          <span onClick={() => setIsRegistering(!isRegistering)}>
+            {isRegistering ? "Inicia sesión" : "Regístrate"}
+          </span>
+        </p>
       </div>
     </div>
   );
 };
 
 export default Login;
-
