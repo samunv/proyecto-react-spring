@@ -3,7 +3,9 @@ import {
   onAuthStateChanged, 
   signInWithEmailAndPassword, 
   signOut, 
-  createUserWithEmailAndPassword 
+  createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup
 } from "firebase/auth";
 import { auth } from "../firebaseConfig";
 
@@ -20,13 +22,6 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 🔴 Cierra la sesión automáticamente al cargar la página
-    signOut(auth).then(() => {
-      console.log("Sesión cerrada automáticamente al abrir la web.");
-      setUser(null);
-      setLoading(false);
-    });
-    
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
@@ -36,11 +31,35 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
-  const register = (email, password) => createUserWithEmailAndPassword(auth, email, password);
+
+  // ✅ Manejar error si el correo ya está registrado
+  const register = async (email, password) => {
+    try {
+      await createUserWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      if (error.code === "auth/email-already-in-use") {
+        throw new Error("Este correo ya está en uso. Prueba con otro.");
+      } else {
+        throw new Error("Ocurrió un error al registrarse.");
+      }
+    }
+  };
+
   const logout = () => signOut(auth);
 
+  const loginWithGoogle = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
+      return result.user;
+    } catch (error) {
+      console.error("Error al iniciar sesión con Google:", error);
+      throw error;
+    }
+  };
+
   return (
-    <AuthContext.Provider value={{ user, login, register, logout, loading }}>
+    <AuthContext.Provider value={{ user, login, register, logout, loginWithGoogle, loading }}>
       {children}
     </AuthContext.Provider>
   );
