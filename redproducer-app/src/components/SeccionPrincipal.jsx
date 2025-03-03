@@ -10,6 +10,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
   const [cancionesAPI, setCancionesAPI] = useState([]);
   const [error, setError] = useState("");
 
+
   // Realizar la solicitud a la API para obtener las canciones
   useEffect(() => {
 	const fetchCanciones = async () => {
@@ -21,7 +22,7 @@ function SeccionPrincipal({ seleccionarCancion }) {
 		  throw error;
 		}
 		const data = await response.json();
-		setCancionesAPI(data); // Guardamos las canciones en el estado
+		setCancionesAPI(data);
 	  } catch (err) {
 		setError(err); // Si ocurre un error, lo guardamos en el estado
 		console.log(error);
@@ -73,12 +74,12 @@ function SeccionPrincipal({ seleccionarCancion }) {
   key={i}
   titulo={cancion.titulo}
   portada={cancion.portada}
-  artista={cancion.artista ? cancion.artista.nombre : "Desconocido"} // Manejo de error en caso de que el artista sea null
+  artista={cancion.artista ? cancion.artista.nombre : "Desconocido"}
   seleccionarCancion={() => seleccionarCancion(cancion)}
   activo={true}
 />
-
 		  ))
+		  
 		) : (
 		  <div className="no-results">
 			<p>No se encontraron canciones con ese título.</p>

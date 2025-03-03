@@ -21,7 +21,7 @@ const Login = () => {
       if (isRegistering) {
         // Registro de usuario
         await register(email, password);
-        alert("✅ Usuario registrado correctamente. Ahora inicia sesión.");
+        alert(" Usuario registrado correctamente. Ahora inicia sesión.");
         setIsRegistering(false);
       } else {
         // Inicio de sesión
@@ -30,7 +30,7 @@ const Login = () => {
       }
     } catch (error) {
       console.error("Error en autenticación:", error.code, error.message);
-      setError("❌ Ocurrió un error. Inténtalo de nuevo.");
+      setError(" Ocurrió un error. Inténtalo de nuevo.");
     }
   };
 

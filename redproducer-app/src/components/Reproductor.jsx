@@ -118,6 +118,7 @@ const Reproductor = ({
 			{/* Información de la canción */}
 			<h2 className="titulo">{titulo || "Título desconocido"}</h2>
 			<p className="artista">{artista || "Artista desconocido"}</p>
+			
 
 			{/* Barra de progreso */}
 			<div className="contenedor-barra">
