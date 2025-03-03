@@ -6,6 +6,7 @@ import { AuthProvider, useAuth } from "./contexts/authContext"; // Asegúrate de
 // Importa los componentes de las páginas
 import Inicio from "./components/Inicio";
 import Login from "./components/Login";
+import Perfil from "./components/Perfil"; // ✅ Importa la pantalla de perfil
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function MainContent() {
         {/* Si el usuario está autenticado, redirige a /inicio, si no, a /login */}
         <Route path="/" element={user ? <Navigate to="/inicio" /> : <Navigate to="/login" />} />
         <Route path="/login" element={user ? <Navigate to="/inicio" /> : <Login />} />
-        <Route path="/inicio" element={user ? <Inicio /> : <Navigate to="/login" />} />
+        <Route path="/inicio" element={user ? <Inicio /> : <Navigate to="/inicio" />} />
+        <Route path="/perfil" element={user ? <Perfil /> : <Navigate to="/perfil" />} />
       </Routes>
     </>
   );
