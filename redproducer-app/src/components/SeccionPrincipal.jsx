@@ -73,10 +73,11 @@ function SeccionPrincipal({ seleccionarCancion }) {
   key={i}
   titulo={cancion.titulo}
   portada={cancion.portada}
-  artista={cancion.artista ? cancion.artista.nombre : "Desconocido"} // Manejo de error en caso de que el artista sea null
+  artista={cancion.artista ? cancion.artista.nombre : "Desconocido"}
   seleccionarCancion={() => seleccionarCancion(cancion)}
   activo={true}
 />
+
 
 		  ))
 		) : (

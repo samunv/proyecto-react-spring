@@ -5,7 +5,6 @@ import { AuthProvider, useAuth } from "./contexts/authContext"; // Asegúrate de
 
 // Importa los componentes de las páginas
 import Inicio from "./components/Inicio";
-import Panel from "./components/Panel";
 import Login from "./components/Login";
 
 function App() {
@@ -34,7 +33,6 @@ function MainContent() {
         <Route path="/" element={user ? <Navigate to="/inicio" /> : <Navigate to="/login" />} />
         <Route path="/login" element={user ? <Navigate to="/inicio" /> : <Login />} />
         <Route path="/inicio" element={user ? <Inicio /> : <Navigate to="/login" />} />
-        <Route path="/panel" element={user ? <Panel /> : <Navigate to="/login" />} />
       </Routes>
     </>
   );
