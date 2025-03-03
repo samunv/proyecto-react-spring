@@ -3,9 +3,7 @@ import {
   onAuthStateChanged, 
   signInWithEmailAndPassword, 
   signOut, 
-  createUserWithEmailAndPassword, 
-  setPersistence, 
-  browserSessionPersistence 
+  createUserWithEmailAndPassword 
 } from "firebase/auth";
 import { auth } from "../firebaseConfig";
 
@@ -22,6 +20,13 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // 🔴 Cierra la sesión automáticamente al cargar la página
+    signOut(auth).then(() => {
+      console.log("Sesión cerrada automáticamente al abrir la web.");
+      setUser(null);
+      setLoading(false);
+    });
+    
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
@@ -30,17 +35,7 @@ export const AuthProvider = ({ children }) => {
     return () => unsubscribe();
   }, []);
 
-  const login = async (email, password) => {
-    try {
-      await setPersistence(auth, browserSessionPersistence); // 🔴 No mantiene la sesión después de cerrar la web
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      return userCredential;
-    } catch (error) {
-      console.error("Error en inicio de sesión:", error.code, error.message);
-      throw error;
-    }
-  };
-
+  const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
   const register = (email, password) => createUserWithEmailAndPassword(auth, email, password);
   const logout = () => signOut(auth);
 
