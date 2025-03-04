@@ -63,7 +63,7 @@
 	width: 70%;
 	padding: 12px;
 	background: linear-gradient(90deg, red, rgb(200, 0, 0));
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 16px;
 	border: none;
 	border-radius: 10px;
@@ -102,7 +102,6 @@
 		width: 60px;
 	}
 }
-/* Texto para alternar entre login y registro */
 .toggle-text {
 	margin-top: 15px;
 	color: #b3b3b3;
@@ -150,5 +149,19 @@
 	border-radius: 50%;
 	padding: 3px;
   }
-  
+  /* Responsive */
+@media (max-width: 600px) {
+	.login-container {
+		width: 90%;
+		padding: 30px;
+	}
+
+	.login-container h2 {
+		font-size: 20px;
+	}
+
+	.logo {
+		width: 60px;
+	}
+}
   

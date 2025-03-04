@@ -1,7 +1,6 @@
 import "../css/SeccionPrincipal.css";
 import { useState, useEffect } from "react";
 import Cancion from "./Cancion";
-import canciones from "../data/canciones.json";
 
 function SeccionPrincipal({ seleccionarCancion }) {
   const [busqueda, setBusqueda] = useState("");
