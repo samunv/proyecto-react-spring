@@ -12,18 +12,20 @@
 	z-index: 1000;
 }
 
+
 @keyframes scroll-lento {
 	0% {
-	  scroll-behavior: smooth;
-	  scrollTop: 0;
+		scroll-behavior: smooth;
+		scrollTop: 0;
 	}
+
 	100% {
-	  scroll-behavior: smooth;
-	  scrollTop: 100%;
+		scroll-behavior: smooth;
+		scrollTop: 100%;
 	}
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
 	background: rgba(34, 34, 34, 0.9);
 	padding: 20px;
 	width: 80%;
@@ -33,10 +35,10 @@
 	border-radius: 10px;
 	color: white;
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  
+
 	animation: scroll-lento 20s linear infinite;
-  }
-  
+}
+
 
 /* Botón de cerrar */
 .cerrar-modal {
@@ -48,6 +50,7 @@
 	color: white;
 	font-size: 24px;
 	cursor: pointer;
+	z-index: 1900;
 }
 
 /* Contenedor de las letras con scroll */
@@ -74,6 +77,6 @@
 	transform: scale(1.08);
 }
 
-.titulo-modal{
+.titulo-modal {
 	padding: 20px;
 }
