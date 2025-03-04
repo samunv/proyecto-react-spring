@@ -18,7 +18,7 @@ const Login = () => {
     try {
       if (isRegistering) {
         await register(email, password);
-        alert("✅ Usuario registrado correctamente. Ahora inicia sesión.");
+        alert("Usuario registrado correctamente. Ahora inicia sesión.");
         setIsRegistering(false);
       } else {
         await login(email, password);
@@ -34,7 +34,7 @@ const Login = () => {
       await loginWithGoogle();
       navigate("/inicio");
     } catch (error) {
-      setError("❌ Error al iniciar sesión con Google.");
+      setError("Error al iniciar sesión con Google.");
     }
   };
 
