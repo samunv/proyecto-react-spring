@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
 
-  // ✅ Manejar error si el correo ya está registrado
+  // Manejar error si el correo ya está registrado
   const register = async (email, password) => {
     try {
       await createUserWithEmailAndPassword(auth, email, password);
